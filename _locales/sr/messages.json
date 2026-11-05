@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Ознаке у резултатима претраге: $$/sqft, DOM, снижење цене",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Ознаке мреже",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Ставља на сваку картицу претраге на Zillow и Redfin цену по sqft, дане на тржишту и ознаку снижења цене — процените мрежу на први поглед.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Ознаке мреже",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Укључи/искључи ознаке у резултатима претраге",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Паузирано — ознаке се тренутно не приказују.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Нема укључених сајтова — укључите Zillow или Redfin изнад.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Све ознаке су сакривене — укључите бар једну изнад.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Ознаке на свакој картици претраге на Zillow и Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Ознаке на свакој картици претраге на $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow и Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Сајтови",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Укључи/искључи ознаке на Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Укључи/искључи ознаке на Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Приказане ознаке",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Цена по sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Оглашена цена ÷ стамбена површина",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Дана на тржишту",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Прочитано са картице, никад погађано",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Снижење цене",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Само када оглас приказује снижење",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Снижење цене",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Укључи/искључи ознаку цене по квадратној стопи",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Укључи/искључи ознаку дана на тржишту",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Укључи/искључи ознаку снижења цене",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Застарели огласи",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Означи огласе на тржишту најмање",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "дана",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — делујте на мрежи",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Истицање циљне $$/sqft",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Зелене картице испод циља, црвене изнад — плус ± у односу на медијану",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Укључи/искључи истицање циљне цене по sqft",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Циљна $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Трака са резимеом резултата",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Медијана / мин / макс $$/sqft, број снижења, број застарелих",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Укључи/искључи траку са резимеом резултата",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Прикажи само снижења цена",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Сакриј остале — локално, увек повратно",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Укључи/искључи приказ само огласа са снижењем цене",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Сортирај мрежу",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Подразумевани редослед сајта",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Прво најнижа $$/sqft",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Прво највиша $$/sqft",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Прво најдуже на тржишту",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Извези мрежу у CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Користите дугме за извоз на страници резултата",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Откључај Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 доживотно",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Помоћ",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Приватност",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Бесплатан план",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro проба",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro план",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Чување није успело — покушајте поново.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Извоз CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "медијана $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "мин",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "макс",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "снижења цена",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "застарели",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Прескочи увод",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Назад",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Даље",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Можда касније",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Отвори Zillow претрагу",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Понови демо",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Сачувај мој циљ",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Циљ сачуван",
+    "description": "Onboarding: save button label after saving."
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Insigne în rezultate: $$/sqft, DOM, reducere de preț",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Insigne grilă",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Marchează fiecare card de căutare Zillow și Redfin cu preț pe sqft, zile pe piață și un indicator de reducere: trierea grilei dintr-o privire.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Insigne grilă",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Activează/dezactivează insignele din rezultate",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "În pauză: nicio insignă nu este afișată acum.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Niciun site activ: activează Zillow sau Redfin mai sus.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Toate insignele sunt ascunse: activează cel puțin una mai sus.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Se marchează fiecare card de căutare Zillow și Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Se marchează fiecare card de căutare $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow și Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Site-uri",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Activează insignele pe Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Activează insignele pe Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Insigne afișate",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Preț pe sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Preț de listare ÷ suprafață locuibilă",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Zile pe piață",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Citit de pe card, niciodată estimat",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Reducere de preț",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Doar când anunțul arată o reducere",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Reducere de preț",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Activează insigna de preț pe sqft",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Activează insigna de zile pe piață",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Activează insigna de reducere de preț",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Anunțuri vechi",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Semnalează anunțurile pe piață de cel puțin",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "zile",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro: acționează asupra grilei",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Evidențiere $$/sqft țintă",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Colorează cardurile în verde sub țintă, roșu peste, plus ± față de mediană",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Activează evidențierea prețului pe sqft țintă",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "$$/sqft țintă",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Bară de sumar al rezultatelor",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Mediană / min / max $$/sqft, nr. reduceri, nr. vechi",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Activează bara de sumar al rezultatelor",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Arată doar reducerile de preț",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Ascunde restul: local, mereu reversibil",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Activează afișarea doar a anunțurilor cu reducere",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Sortează grila",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Ordinea implicită a site-ului",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Cel mai mic $$/sqft primul",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Cel mai mare $$/sqft primul",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Cel mai mult timp pe piață primul",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Exportă grila în CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Folosește butonul Exportă din pagina de rezultate",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Deblochează Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 pe viață",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Ajutor",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Confidențialitate",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Plan gratuit",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Perioadă de probă Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Plan Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Salvarea nu a reușit: încearcă din nou.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Exportă CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "$$/sqft mediană",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "max",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "reduceri de preț",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "vechi",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Sari peste intro",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Înapoi",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Înainte",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Poate mai târziu",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Deschide o căutare Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Reia demonstrația",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Salvează ținta mea",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Țintă salvată",
+    "description": "Onboarding: save button label after saving."
+  }
+}

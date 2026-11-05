@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Suchergebnis-Badges: $$/sqft, DOM, Preissenkung",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Grid Badges",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Versieht jede Zillow- & Redfin-Suchkarte mit Preis pro sqft, Tagen am Markt und einer Preissenkungs-Markierung — das Raster auf einen Blick sichten.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Grid Badges",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Suchergebnis-Badges umschalten",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Pausiert — derzeit werden keine Badges angezeigt.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Keine Seiten aktiviert — schalte oben Zillow oder Redfin ein.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Alle Badges sind ausgeblendet — aktiviere oben mindestens eines.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Versieht jede Zillow- & Redfin-Suchkarte mit Badges.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Versieht jede $SITES$-Suchkarte mit Badges.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow & Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Seiten",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Badges auf Zillow umschalten",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Badges auf Redfin umschalten",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Angezeigte Badges",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Preis pro sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Listenpreis ÷ Wohnfläche",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Tage am Markt",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Von der Karte gelesen, nie geschätzt",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Preissenkung",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Nur wenn das Inserat eine Reduzierung zeigt",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Preissenkung",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Das Preis-pro-Quadratfuß-Badge umschalten",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Das Tage-am-Markt-Badge umschalten",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Das Preissenkungs-Badge umschalten",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Veraltete Inserate",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Inserate markieren ab mindestens",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "Tagen",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — auf dem Raster handeln",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Ziel-$$/sqft-Hervorhebung",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Karten unter dem Ziel grün, darüber rot einfärben — plus ± zum Median",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Ziel-Preis-pro-Quadratfuß-Hervorhebung umschalten",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Ziel $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Ergebnis-Zusammenfassungsleiste",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Median / Min / Max $$/sqft, # Preissenkungen, # veraltet",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Die Ergebnis-Zusammenfassungsleiste umschalten",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Nur Preissenkungen anzeigen",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Den Rest ausblenden — lokal, jederzeit umkehrbar",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Nur Preissenkungs-Inserate anzeigen umschalten",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Das Raster sortieren",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Standardreihenfolge der Seite",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Niedrigste $$/sqft zuerst",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Höchste $$/sqft zuerst",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Am längsten am Markt zuerst",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Das Raster als CSV exportieren",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Nutze die Export-Schaltfläche auf der Ergebnisseite",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro freischalten",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 lebenslang",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Hilfe",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Datenschutz",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Kostenloser Plan",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro-Testphase",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro-Plan",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Speichern fehlgeschlagen — bitte erneut versuchen.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV exportieren",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "Median $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "Min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "Max",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "Preissenkungen",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "veraltet",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Intro überspringen",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Zurück",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Weiter",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Vielleicht später",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Eine Zillow-Suche öffnen",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Demo erneut abspielen",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Mein Ziel speichern",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Ziel gespeichert",
+    "description": "Onboarding: save button label after saving."
+  }
+}

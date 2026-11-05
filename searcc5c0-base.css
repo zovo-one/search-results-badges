@@ -1,0 +1,373 @@
+/* ============================================================================
+ * searcc5c0-base.css —  brand design system
+ * ----------------------------------------------------------------------------
+ * The single shared stylesheet every  Chrome extension imports. It defines
+ * the full brand as CSS custom properties (colors, type scale, radii, shadows,
+ * transitions) plus the base component classes used across popup, options,
+ * onboarding, and the paywall modal.
+ *
+ * Source of truth: BUILD-RULES.md § ZOVO BRAND SYSTEM.
+ * Import first, before any per-extension stylesheet, so tokens cascade down:
+ *     <link rel="stylesheet" href="searcc5c0-base.css">
+ *     <link rel="stylesheet" href="popup.css">
+ * ========================================================================== */
+
+/* ---- Design tokens (light) ------------------------------------------------ */
+:root {
+  /* Brand */
+  --searcc5c0-primary:        #6C5CE7;   /*  purple — buttons, links, active   */
+  --searcc5c0-primary-dark:   #5A4BD1;   /* hover                                  */
+  --searcc5c0-primary-light:  #8B7CF0;   /* subtle accents / backgrounds           */
+  --searcc5c0-primary-50:     #F1EFFD;   /* tint fill (accent-bg)                  */
+  --searcc5c0-accent:         #00D2D3;   /* teal — secondary actions, highlights   */
+
+  /* Surfaces & text */
+  --searcc5c0-bg:             #FFFFFF;
+  --searcc5c0-surface:        #F8F9FA;   /* cards, input backgrounds               */
+  --searcc5c0-surface-2:      #F1F2F4;   /* nested / hover surface                 */
+  --searcc5c0-text:           #1A1A2E;   /* text primary                           */
+  --searcc5c0-text-secondary: #6B7280;
+  --searcc5c0-border:         #E5E7EB;
+
+  /* Status */
+  --searcc5c0-success:        #10B981;
+  --searcc5c0-warning:        #F59E0B;
+  --searcc5c0-error:          #EF4444;
+  --searcc5c0-pro:            #F59E0B;   /* gold — PRO badges + upgrade CTAs        */
+  --searcc5c0-pro-dark:       #D97706;
+  --searcc5c0-on-pro:         #FFFFFF;
+
+  /* Typography */
+  --searcc5c0-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --searcc5c0-font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+  --searcc5c0-fs-caption:    12px;
+  --searcc5c0-fs-body:       14px;
+  --searcc5c0-fs-subheading: 16px;
+  --searcc5c0-fs-heading:    20px;
+  --searcc5c0-fs-title:      24px;
+  --searcc5c0-fs-hero:       44px;   /* the one big number per screen */
+  --searcc5c0-fw-body:       400;
+  --searcc5c0-fw-medium:     500;
+  --searcc5c0-fw-heading:    600;
+  --searcc5c0-lh:            1.5;
+
+  /* Radii — slightly rounder than 8/6/4 reads friendlier/premium */
+  --searcc5c0-radius-card:   12px;
+  --searcc5c0-radius-btn:    8px;
+  --searcc5c0-radius-input:  8px;
+  --searcc5c0-radius-pill:   9999px;
+
+  /* Shadows — soft, low, single-direction (premium ≠ hard drop shadow) */
+  --searcc5c0-shadow-sm: 0 1px 2px rgba(16,24,40,0.05);
+  --searcc5c0-shadow: 0 1px 3px rgba(16,24,40,0.06), 0 6px 16px -6px rgba(16,24,40,0.10);
+  --searcc5c0-shadow-lg: 0 24px 48px -12px rgba(16,24,40,0.28);
+
+  /* Motion */
+  --searcc5c0-transition: 150ms ease-in-out;
+
+  /* Layout */
+  --searcc5c0-popup-w:      360px;
+  --searcc5c0-popup-w-wide: 400px;
+  --searcc5c0-popup-maxh:   560px;
+  --searcc5c0-space-1: 4px;  --searcc5c0-space-2: 8px;  --searcc5c0-space-3: 12px;
+  --searcc5c0-space-4: 16px; --searcc5c0-space-5: 20px; --searcc5c0-space-6: 24px;
+  --searcc5c0-space-7: 32px; --searcc5c0-space-8: 40px;
+}
+
+/* ---- Dark mode ------------------------------------------------------------ */
+/* Follows the system preference by default; a manual [data-theme] on <html>
+ * (set from General → Theme) always wins in both directions. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --searcc5c0-primary-50:     #241f45;
+    --searcc5c0-bg:             #0F0F1A;
+    --searcc5c0-surface:        #1A1A2E;
+    --searcc5c0-surface-2:      #232338;
+    --searcc5c0-text:           #F5F5FA;
+    --searcc5c0-text-secondary: #A1A1AA;
+    --searcc5c0-border:         #2E2E45;
+    --searcc5c0-shadow: 0 4px 6px -1px rgba(0,0,0,0.4), 0 2px 4px -1px rgba(0,0,0,0.3);
+    --searcc5c0-shadow-lg: 0 20px 40px -8px rgba(0,0,0,0.6), 0 8px 16px -8px rgba(0,0,0,0.4);
+  }
+}
+:root[data-theme='dark'] {
+  --searcc5c0-primary-50:     #241f45;
+  --searcc5c0-bg:             #0F0F1A;
+  --searcc5c0-surface:        #1A1A2E;
+  --searcc5c0-surface-2:      #232338;
+  --searcc5c0-text:           #F5F5FA;
+  --searcc5c0-text-secondary: #A1A1AA;
+  --searcc5c0-border:         #2E2E45;
+  --searcc5c0-shadow: 0 4px 6px -1px rgba(0,0,0,0.4), 0 2px 4px -1px rgba(0,0,0,0.3);
+  --searcc5c0-shadow-lg: 0 20px 40px -8px rgba(0,0,0,0.6), 0 8px 16px -8px rgba(0,0,0,0.4);
+}
+
+/* ---- Base ----------------------------------------------------------------- */
+.searcc5c0-root,
+body.searcc5c0 {
+  margin: 0;
+  font-family: var(--searcc5c0-font);
+  font-size: var(--searcc5c0-fs-body);
+  line-height: var(--searcc5c0-lh);
+  color: var(--searcc5c0-text);
+  background: var(--searcc5c0-bg);
+  -webkit-font-smoothing: antialiased;
+}
+.searcc5c0-root *, .searcc5c0-root *::before, .searcc5c0-root *::after { box-sizing: border-box; }
+
+/* Popup sizing helper */
+.searcc5c0-popup {
+  width: var(--searcc5c0-popup-w);
+  max-height: var(--searcc5c0-popup-maxh);
+  overflow-y: auto;
+}
+.searcc5c0-popup--wide { width: var(--searcc5c0-popup-w-wide); }
+
+/* ---- Header --------------------------------------------------------------- */
+.searcc5c0-header {
+  display: flex;
+  align-items: center;
+  gap: var(--searcc5c0-space-3);
+  padding: var(--searcc5c0-space-4) var(--searcc5c0-space-5);
+  border-bottom: 1px solid var(--searcc5c0-border);
+}
+.searcc5c0-header__icon { width: 28px; height: 28px; border-radius: var(--searcc5c0-radius-input); }
+.searcc5c0-header__title {
+  flex: 1; min-width: 0;
+  font-size: var(--searcc5c0-fs-subheading);
+  font-weight: var(--searcc5c0-fw-heading);
+  letter-spacing: -0.01em;
+}
+
+/* ---- Card ----------------------------------------------------------------- */
+.searcc5c0-card {
+  background: var(--searcc5c0-bg);
+  border: 1px solid var(--searcc5c0-border);
+  border-radius: var(--searcc5c0-radius-card);
+  padding: var(--searcc5c0-space-5);
+  box-shadow: var(--searcc5c0-shadow);
+}
+.searcc5c0-card--flush { box-shadow: none; background: var(--searcc5c0-surface); }
+
+/* ---- Buttons -------------------------------------------------------------- */
+.searcc5c0-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--searcc5c0-space-2);
+  min-height: 40px;                /* comfortable premium tap target */
+  padding: 10px 18px;
+  font-family: inherit;
+  font-size: var(--searcc5c0-fs-body);
+  font-weight: var(--searcc5c0-fw-medium);
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: var(--searcc5c0-radius-btn);
+  cursor: pointer;
+  transition: background var(--searcc5c0-transition), border-color var(--searcc5c0-transition),
+              color var(--searcc5c0-transition), transform var(--searcc5c0-transition);
+}
+.searcc5c0-btn:active { transform: translateY(1px); }
+.searcc5c0-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--searcc5c0-bg), 0 0 0 4px var(--searcc5c0-primary);
+}
+.searcc5c0-btn[disabled] { opacity: 0.55; cursor: not-allowed; }
+
+.searcc5c0-btn--primary { background: var(--searcc5c0-primary); color: #fff; }
+.searcc5c0-btn--primary:hover:not([disabled]) { background: var(--searcc5c0-primary-dark); }
+
+.searcc5c0-btn--secondary {
+  background: var(--searcc5c0-surface);
+  color: var(--searcc5c0-text);
+  border-color: var(--searcc5c0-border);
+}
+.searcc5c0-btn--secondary:hover:not([disabled]) { background: var(--searcc5c0-surface-2); }
+
+.searcc5c0-btn--ghost { background: transparent; color: var(--searcc5c0-primary); }
+.searcc5c0-btn--ghost:hover:not([disabled]) { background: var(--searcc5c0-primary-50); }
+
+/* Gold upgrade CTA — the only button that uses the PRO color. */
+.searcc5c0-btn--pro {
+  background: var(--searcc5c0-pro);
+  color: var(--searcc5c0-on-pro);
+  font-weight: var(--searcc5c0-fw-heading);
+}
+.searcc5c0-btn--pro:hover:not([disabled]) { background: var(--searcc5c0-pro-dark); }
+
+.searcc5c0-btn--block { width: 100%; }
+
+/* ---- Inputs --------------------------------------------------------------- */
+.searcc5c0-input {
+  width: 100%;
+  padding: 8px 10px;
+  font-family: inherit;
+  font-size: var(--searcc5c0-fs-body);
+  color: var(--searcc5c0-text);
+  background: var(--searcc5c0-surface);
+  border: 1px solid var(--searcc5c0-border);
+  border-radius: var(--searcc5c0-radius-input);
+  transition: border-color var(--searcc5c0-transition), box-shadow var(--searcc5c0-transition);
+}
+.searcc5c0-input:focus-visible {
+  outline: none;
+  border-color: var(--searcc5c0-primary);
+  box-shadow: 0 0 0 3px var(--searcc5c0-primary-50);
+}
+.searcc5c0-label {
+  display: block;
+  font-size: var(--searcc5c0-fs-caption);
+  font-weight: var(--searcc5c0-fw-medium);
+  color: var(--searcc5c0-text-secondary);
+  margin-bottom: var(--searcc5c0-space-1);
+}
+
+/* ---- PRO badge ------------------------------------------------------------ */
+.searcc5c0-pro-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--searcc5c0-pro);
+  background: transparent;
+  border: 1px solid var(--searcc5c0-pro);
+  border-radius: var(--searcc5c0-radius-pill);
+  line-height: 1.4;
+}
+.searcc5c0-pro-badge--solid { color: var(--searcc5c0-on-pro); background: var(--searcc5c0-pro); border-color: var(--searcc5c0-pro); }
+.searcc5c0-pro-badge__lock { width: 10px; height: 10px; }
+
+/* ---- Footer --------------------------------------------------------------- */
+.searcc5c0-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--searcc5c0-space-3) var(--searcc5c0-space-5);
+  font-size: var(--searcc5c0-fs-caption);
+  color: var(--searcc5c0-text-secondary);
+  border-top: 1px solid var(--searcc5c0-border);
+}
+.searcc5c0-footer a { color: var(--searcc5c0-primary); text-decoration: none; }
+.searcc5c0-footer a:hover { text-decoration: underline; }
+
+/* ---- Utility -------------------------------------------------------------- */
+.searcc5c0-muted { color: var(--searcc5c0-text-secondary); }
+.searcc5c0-mono  { font-family: var(--searcc5c0-font-mono); }
+.searcc5c0-sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+/* ===========================================================================
+ * PREMIUM COMPONENTS (v3) — the patterns that make a screen read premium.
+ * See DESIGN-SYSTEM.md for when/why to use each.
+ * ========================================================================= */
+
+/* Popup shell: sits on the neutral surface, comfortable padding, grid rhythm */
+.searcc5c0-popup { background: var(--searcc5c0-surface); }
+.searcc5c0-stack { display: flex; flex-direction: column; gap: var(--searcc5c0-space-4);
+  padding: var(--searcc5c0-space-5); }
+
+/* Section label — 11px uppercase tracked muted (AdBlock "NUMBER OF ITEMS…") */
+.searcc5c0-eyebrow {
+  margin: 0 0 var(--searcc5c0-space-2);
+  font-size: 11px; font-weight: var(--searcc5c0-fw-heading);
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--searcc5c0-text-secondary);
+}
+
+/* ---- Hero stat — the ONE thing the eye lands on first --------------------- */
+.searcc5c0-hero { text-align: center; padding: var(--searcc5c0-space-7) var(--searcc5c0-space-5); }
+.searcc5c0-hero__num {
+  font-size: var(--searcc5c0-fs-hero); font-weight: 700; letter-spacing: -0.02em;
+  line-height: 1.05; color: var(--searcc5c0-primary);
+}
+.searcc5c0-hero__num--pro { color: var(--searcc5c0-pro); }
+.searcc5c0-hero__label {
+  margin-top: var(--searcc5c0-space-2);
+  font-size: 11px; font-weight: var(--searcc5c0-fw-heading);
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--searcc5c0-text-secondary);
+}
+.searcc5c0-hero__sub { margin-top: var(--searcc5c0-space-3); color: var(--searcc5c0-text); }
+/* gradient progress — thin, calm */
+.searcc5c0-progress { height: 6px; border-radius: 999px; background: var(--searcc5c0-surface-2); overflow: hidden; }
+.searcc5c0-progress__fill { height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, var(--searcc5c0-primary), var(--searcc5c0-accent)); }
+
+/* Inline stat row — "4 suspended · 45 total · 6 windows" */
+.searcc5c0-stats { display: flex; justify-content: center; gap: var(--searcc5c0-space-4);
+  font-size: var(--searcc5c0-fs-caption); color: var(--searcc5c0-text-secondary); }
+.searcc5c0-stats b { color: var(--searcc5c0-text); font-weight: var(--searcc5c0-fw-heading); }
+
+/* ---- Badges --------------------------------------------------------------- */
+.searcc5c0-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 2px 8px; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.04em; text-transform: uppercase; line-height: 1.4;
+  border-radius: var(--searcc5c0-radius-pill);
+}
+.searcc5c0-badge--pro  { color: var(--searcc5c0-on-pro); background: var(--searcc5c0-pro); }
+.searcc5c0-badge--free { color: var(--searcc5c0-text-secondary); background: var(--searcc5c0-surface-2); }
+.searcc5c0-badge--new  { color: #fff; background: #3B82F6; }
+
+/* ---- Loss-framing alert — the cost of NOT upgrading (use once, honestly) --- */
+.searcc5c0-alert {
+  display: flex; align-items: center; gap: var(--searcc5c0-space-2);
+  padding: 10px 12px; border-radius: var(--searcc5c0-radius-btn);
+  font-size: var(--searcc5c0-fs-body);
+}
+.searcc5c0-alert--warn {
+  color: var(--searcc5c0-error);
+  background: color-mix(in srgb, var(--searcc5c0-error) 8%, var(--searcc5c0-bg));
+  border: 1px solid color-mix(in srgb, var(--searcc5c0-error) 22%, transparent);
+}
+
+/* ---- Empty state — delight, never a blank box ----------------------------- */
+.searcc5c0-empty { text-align: center; padding: var(--searcc5c0-space-7) var(--searcc5c0-space-5); }
+.searcc5c0-empty__art { width: 96px; height: 96px; margin: 0 auto var(--searcc5c0-space-4); opacity: 0.9; }
+.searcc5c0-empty__title { font-size: var(--searcc5c0-fs-heading); font-weight: 700; letter-spacing: -0.01em; }
+.searcc5c0-empty__text { margin-top: var(--searcc5c0-space-2); color: var(--searcc5c0-text-secondary); }
+
+/* ---- Tip carousel — dismissible in-context hint --------------------------- */
+.searcc5c0-tip {
+  position: relative; border-radius: var(--searcc5c0-radius-card);
+  border: 1px solid var(--searcc5c0-border); background: var(--searcc5c0-bg);
+  border-left: 3px solid var(--searcc5c0-primary);
+  padding: var(--searcc5c0-space-4) var(--searcc5c0-space-5);
+}
+.searcc5c0-tip__foot { display: flex; justify-content: space-between; align-items: center;
+  margin-top: var(--searcc5c0-space-3); font-size: var(--searcc5c0-fs-caption); color: var(--searcc5c0-text-secondary); }
+.searcc5c0-tip__next { color: var(--searcc5c0-primary); font-weight: var(--searcc5c0-fw-medium); cursor: pointer; }
+
+/* ---- List row ------------------------------------------------------------- */
+.searcc5c0-row {
+  display: flex; align-items: center; gap: var(--searcc5c0-space-3);
+  min-height: 44px; padding: var(--searcc5c0-space-2) var(--searcc5c0-space-3);
+  border-radius: var(--searcc5c0-radius-btn); cursor: pointer;
+  transition: background var(--searcc5c0-transition);
+}
+.searcc5c0-row:hover { background: var(--searcc5c0-primary-50); }
+.searcc5c0-row__label { flex: 1; min-width: 0; }
+.searcc5c0-row__meta { color: var(--searcc5c0-text-secondary); font-family: var(--searcc5c0-font-mono);
+  font-size: var(--searcc5c0-fs-caption); }
+
+/* ---- Segmented control — Tab / Screen / Webcam --------------------------- */
+.searcc5c0-seg { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: var(--searcc5c0-space-2); }
+.searcc5c0-seg__item {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: var(--searcc5c0-space-3); border: 1px solid var(--searcc5c0-border);
+  border-radius: var(--searcc5c0-radius-card); background: var(--searcc5c0-bg);
+  cursor: pointer; transition: border-color var(--searcc5c0-transition), background var(--searcc5c0-transition);
+}
+.searcc5c0-seg__item:hover { border-color: var(--searcc5c0-primary-light); }
+.searcc5c0-seg__item[aria-selected='true'] { border-color: var(--searcc5c0-primary); background: var(--searcc5c0-primary-50); }
+
+@media (prefers-reduced-motion: reduce) {
+  .searcc5c0-root *, .searcc5c0-root *::before, .searcc5c0-root *::after {
+    transition: none !important; animation: none !important;
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Hakutulosmerkit: $$/sqft, DOM, hinnanalennus",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Ruutumerkit",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Merkitsee jokaisen Zillow- ja Redfin-hakukortin neliöhinnalla, markkinapäivillä ja hinnanalennusmerkillä — arvioi ruudukko yhdellä silmäyksellä.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Ruutumerkit",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Kytke hakutulosmerkit päälle/pois",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Keskeytetty — merkkejä ei näytetä juuri nyt.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Ei aktiivisia sivustoja — ota Zillow tai Redfin käyttöön yllä.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Kaikki merkit on piilotettu — ota vähintään yksi käyttöön yllä.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Merkitään jokainen Zillow- ja Redfin-hakukortti.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Merkitään jokainen $SITES$-hakukortti.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow ja Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Sivustot",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Kytke merkit Zillowissa",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Kytke merkit Redfinissä",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Näytettävät merkit",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Neliöhinta",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Pyyntihinta ÷ asuinpinta-ala",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Markkinapäivät",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Luetaan kortista, ei koskaan arvata",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Hinnanalennus",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Vain kun ilmoitus näyttää alennuksen",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Hinnanalennus",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Kytke neliöhintamerkki",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Kytke markkinapäivämerkki",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Kytke hinnanalennusmerkki",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Vanhentuneet ilmoitukset",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Merkitse ilmoitukset, jotka ovat olleet markkinoilla vähintään",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "päivää",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — toimi ruudukossa",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Tavoite-$$/sqft-korostus",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Värjää kortit vihreiksi tavoitteen alle, punaisiksi yli — plus ± mediaaniin nähden",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Kytke tavoiteneliöhinnan korostus",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Tavoite $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Tulosten yhteenvetopalkki",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Mediaani / min / maks $$/sqft, # hinnanalennuksia, # vanhentuneita",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Kytke tulosten yhteenvetopalkki",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Näytä vain hinnanalennukset",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Piilota loput — paikallisesti, aina peruutettavissa",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Kytke vain hinnanalennettujen ilmoitusten näyttö",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Lajittele ruudukko",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Sivuston oletusjärjestys",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Matalin $$/sqft ensin",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Korkein $$/sqft ensin",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Pisimpään markkinoilla olleet ensin",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Vie ruudukko CSV-muotoon",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Käytä tulossivun Vie-painiketta",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Avaa Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 elinikäinen",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Ohje",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Tietosuoja",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Ilmainen tilaus",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro-kokeilu",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro-tilaus",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Tallennus epäonnistui — yritä uudelleen.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Vie CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "mediaani $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "maks",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "hinnanalennukset",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "vanhentunut",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Ohita esittely",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Takaisin",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Seuraava",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Ehkä myöhemmin",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Avaa Zillow-haku",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Toista demo uudelleen",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Tallenna tavoitteeni",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Tavoite tallennettu",
+    "description": "Onboarding: save button label after saving."
+  }
+}

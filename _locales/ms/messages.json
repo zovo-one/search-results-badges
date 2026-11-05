@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Lencana Hasil Carian: $$/sqft, DOM, Potongan Harga",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Lencana Grid",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Menandakan setiap kad carian Zillow & Redfin dengan harga per sqft, hari di pasaran dan bendera potongan harga — nilai grid dengan sekali pandang.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Lencana Grid",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Togol Lencana Hasil Carian",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Dijeda — tiada lencana ditunjukkan sekarang.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Tiada tapak didayakan — hidupkan Zillow atau Redfin di atas.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Semua lencana disembunyikan — dayakan sekurang-kurangnya satu di atas.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Menandakan setiap kad carian Zillow & Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Menandakan setiap kad carian $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow & Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Tapak",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Togol lencana pada Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Togol lencana pada Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Lencana ditunjukkan",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Harga per sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Harga senarai ÷ ruang kediaman",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Hari di pasaran",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Dibaca dari kad, tidak pernah diteka",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Potongan harga",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Hanya apabila penyenaraian menunjukkan pengurangan",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Potongan harga",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Togol lencana harga per kaki persegi",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Togol lencana hari di pasaran",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Togol lencana potongan harga",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Penyenaraian lapuk",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Tandakan penyenaraian di pasaran sekurang-kurangnya",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "hari",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — bertindak pada grid",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Sorotan sasaran $$/sqft",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Warnakan kad hijau di bawah sasaran, merah di atas — serta ± berbanding median",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Togol sorotan harga per kaki persegi sasaran",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Sasaran $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Bar ringkasan hasil",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Median / min / maks $$/sqft, # potongan harga, # lapuk",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Togol bar ringkasan hasil",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Tunjukkan hanya potongan harga",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Sembunyikan yang lain — secara tempatan, sentiasa boleh dibalikkan",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Togol paparan hanya penyenaraian potongan harga",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Isih grid",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Susunan lalai tapak",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "$$/sqft terendah dahulu",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "$$/sqft tertinggi dahulu",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Paling lama di pasaran dahulu",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Eksport grid ke CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Gunakan butang Eksport pada halaman hasil",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Buka kunci Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 seumur hidup",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Bantuan",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Privasi",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Pelan percuma",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Percubaan Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pelan Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Tidak dapat menyimpan — sila cuba lagi.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Eksport CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "median $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "maks",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "potongan harga",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "lapuk",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Langkau intro",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Kembali",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Seterusnya",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Mungkin nanti",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Buka carian Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Main semula demo",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Simpan sasaran saya",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Sasaran disimpan",
+    "description": "Onboarding: save button label after saving."
+  }
+}

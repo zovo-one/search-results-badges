@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "சர்ச்-ரிசல்ட் பேட்ஜ்: $$/sqft, DOM, ப்ரைஸ்-கட்",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "கிரிட் பேட்ஜ்",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "ஒவ்வொரு Zillow மற்றும் Redfin தேடல் கார்டிலும் ஒரு sqft விலை, சந்தையில் நாட்கள், மற்றும் ப்ரைஸ்-கட் கொடி காட்டுகிறது — ஒரே பார்வையில் கிரிட்டை வகைப்படுத்துங்கள்.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "கிரிட் பேட்ஜ்",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "சர்ச்-ரிசல்ட் பேட்ஜை நிலைமாற்று",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "இடைநிறுத்தப்பட்டது — இப்போது எந்த பேட்ஜும் காட்டப்படவில்லை.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "எந்த தளமும் இயக்கப்படவில்லை — மேலே Zillow அல்லது Redfin ஐ இயக்கவும்.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "எல்லா பேட்ஜுகளும் மறைக்கப்பட்டுள்ளன — மேலே குறைந்தது ஒன்றை இயக்கவும்.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "ஒவ்வொரு Zillow மற்றும் Redfin தேடல் கார்டிலும் பேட்ஜ் இடப்படுகிறது.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "ஒவ்வொரு $SITES$ தேடல் கார்டிலும் பேட்ஜ் இடப்படுகிறது.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow மற்றும் Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "தளங்கள்",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow இல் பேட்ஜை நிலைமாற்று",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin இல் பேட்ஜை நிலைமாற்று",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "காட்டப்படும் பேட்ஜுகள்",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "ஒரு sqft விலை",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "பட்டியல் விலை ÷ வசிப்பிட பரப்பு",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "சந்தையில் நாட்கள்",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "கார்டிலிருந்து படிக்கப்பட்டது, ஒருபோதும் ஊகிக்கப்படவில்லை",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "ப்ரைஸ் கட்",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "பட்டியலில் குறைப்பு காட்டும்போது மட்டுமே",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "ப்ரைஸ் கட்",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "ஒரு-சதுர-அடி விலை பேட்ஜை நிலைமாற்று",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "சந்தையில்-நாட்கள் பேட்ஜை நிலைமாற்று",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "ப்ரைஸ்-கட் பேட்ஜை நிலைமாற்று",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "பழைய பட்டியல்கள்",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "குறைந்தது இத்தனை நாட்கள் சந்தையில் உள்ள பட்டியலைக் கொடியிடு",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "நாட்கள்",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — கிரிட்டில் செயல்படு",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "இலக்கு $$/sqft சிறப்பம்சம்",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "இலக்குக்கு கீழே கார்டு பச்சை, மேலே சிவப்பு — கூடவே இடைநிலை vs ±",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "இலக்கு ஒரு-sqft விலை சிறப்பம்சத்தை நிலைமாற்று",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "இலக்கு $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "முடிவுகள் சுருக்கப் பட்டை",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "இடைநிலை / குறைந்தபட்சம் / அதிகபட்சம் $$/sqft, ப்ரைஸ் கட் எண்ணிக்கை, பழைய எண்ணிக்கை",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "முடிவுகள் சுருக்கப் பட்டையை நிலைமாற்று",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "ப்ரைஸ் கட் மட்டும் காட்டு",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "மற்றவற்றை மறை — உள்ளூரில், எப்போதும் மீளக்கூடியது",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "ப்ரைஸ்-கட் பட்டியலை மட்டும் காட்டுவதை நிலைமாற்று",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "கிரிட்டை வரிசைப்படுத்து",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "தள இயல்பு வரிசை",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "மிகக் குறைந்த $$/sqft முதலில்",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "மிக அதிக $$/sqft முதலில்",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "மிக நீண்ட காலம் சந்தையில் உள்ளது முதலில்",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "கிரிட்டை CSV க்கு ஏற்றுமதி செய்",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "முடிவுகள் பக்கத்தில் உள்ள ஏற்றுமதி பொத்தானைப் பயன்படுத்து",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro ஐ திற",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 வாழ்நாள்",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "உதவி",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "தனியுரிமை",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "இலவச திட்டம்",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro சோதனை",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro திட்டம்",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "சேமிக்க முடியவில்லை — மீண்டும் முயற்சிக்கவும்.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV ஏற்றுமதி",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "இடைநிலை $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "குறைந்தபட்சம்",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "அதிகபட்சம்",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "ப்ரைஸ் கட்",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "பழைய",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "அறிமுகத்தைத் தவிர்",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "பின்",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "அடுத்து",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "பிறகு பார்க்கலாம்",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "ஒரு Zillow தேடலைத் திற",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "டெமோவை மீண்டும் இயக்கு",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "எனது இலக்கைச் சேமி",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "இலக்கு சேமிக்கப்பட்டது",
+    "description": "Onboarding: save button label after saving."
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "सर्च-रिझल्ट बॅज: $$/sqft, DOM, प्राइस-कट",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "ग्रिड बॅज",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "प्रत्येक Zillow व Redfin सर्च कार्डवर प्रति-sqft किंमत, बाजारातील दिवस, आणि प्राइस-कट फ्लॅग दाखवते — एका नजरेत ग्रिड वेगळे करा.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "ग्रिड बॅज",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "सर्च-रिझल्ट बॅज टॉगल करा",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "थांबवले — सध्या कोणतेही बॅज दिसत नाहीत.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "कोणतीही साइट सक्षम नाही — वर Zillow किंवा Redfin चालू करा.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "सर्व बॅज लपवले आहेत — वर किमान एक सक्षम करा.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "प्रत्येक Zillow व Redfin सर्च कार्डवर बॅज लावले जात आहेत.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "प्रत्येक $SITES$ सर्च कार्डवर बॅज लावले जात आहेत.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow व Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "साइट्स",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow वर बॅज टॉगल करा",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin वर बॅज टॉगल करा",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "दाखवलेले बॅज",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "प्रति sqft किंमत",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "यादी किंमत ÷ राहण्याचे क्षेत्र",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "बाजारातील दिवस",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "कार्डमधून वाचले, कधीही अंदाज नाही",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "प्राइस कट",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "फक्त जेव्हा लिस्टिंगमध्ये घट दिसते",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "प्राइस कट",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "प्रति-चौरस-फूट किंमत बॅज टॉगल करा",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "बाजारातील-दिवस बॅज टॉगल करा",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "प्राइस-कट बॅज टॉगल करा",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "जुन्या लिस्टिंग",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "किमान इतके दिवस बाजारात असलेल्या लिस्टिंग फ्लॅग करा",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "दिवस",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — ग्रिडवर कृती करा",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "लक्ष्य $$/sqft हायलाइट",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "लक्ष्याखाली कार्ड हिरवे, वर लाल — तसेच मध्यक विरुद्ध ±",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "लक्ष्य प्रति-sqft किंमत हायलाइटिंग टॉगल करा",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "लक्ष्य $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "निकाल सारांश बार",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "मध्यक / किमान / कमाल $$/sqft, प्राइस कट संख्या, जुन्या संख्या",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "निकाल सारांश बार टॉगल करा",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "फक्त प्राइस कट दाखवा",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "बाकीचे लपवा — स्थानिक पातळीवर, नेहमी उलट करता येते",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "फक्त प्राइस-कट लिस्टिंग दाखवणे टॉगल करा",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "ग्रिड क्रमवारी लावा",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "साइट डीफॉल्ट क्रम",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "सर्वात कमी $$/sqft आधी",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "सर्वात जास्त $$/sqft आधी",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "सर्वात जास्त काळ बाजारात आधी",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "ग्रिड CSV मध्ये एक्सपोर्ट करा",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "निकाल पृष्ठावरील एक्सपोर्ट बटण वापरा",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro अनलॉक करा",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 आजीवन",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "मदत",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "गोपनीयता",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "मोफत प्लॅन",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro ट्रायल",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro प्लॅन",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "जतन करता आले नाही — कृपया पुन्हा प्रयत्न करा.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV एक्सपोर्ट",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "मध्यक $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "किमान",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "कमाल",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "प्राइस कट",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "जुन्या",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "परिचय वगळा",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "मागे",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "पुढे",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "कदाचित नंतर",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "एक Zillow सर्च उघडा",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "डेमो पुन्हा प्ले करा",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "माझे लक्ष्य जतन करा",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "लक्ष्य जतन केले",
+    "description": "Onboarding: save button label after saving."
+  }
+}

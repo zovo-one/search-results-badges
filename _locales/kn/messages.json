@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "ಸರ್ಚ್-ರಿಸಲ್ಟ್ ಬ್ಯಾಡ್ಜ್: $$/sqft, DOM, ಪ್ರೈಸ್-ಕಟ್",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "ಗ್ರಿಡ್ ಬ್ಯಾಡ್ಜ್",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "ಪ್ರತಿ Zillow ಮತ್ತು Redfin ಸರ್ಚ್ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಪ್ರತಿ-sqft ಬೆಲೆ, ಮಾರುಕಟ್ಟೆಯಲ್ಲಿ ದಿನಗಳು, ಮತ್ತು ಪ್ರೈಸ್-ಕಟ್ ಫ್ಲ್ಯಾಗ್ ತೋರಿಸುತ್ತದೆ — ಒಂದೇ ನೋಟದಲ್ಲಿ ಗ್ರಿಡ್ ವಿಂಗಡಿಸಿ.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "ಗ್ರಿಡ್ ಬ್ಯಾಡ್ಜ್",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "ಸರ್ಚ್-ರಿಸಲ್ಟ್ ಬ್ಯಾಡ್ಜ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "ವಿರಾಮ — ಈಗ ಯಾವುದೇ ಬ್ಯಾಡ್ಜ್ ತೋರಿಸಲ್ಲ.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "ಯಾವುದೇ ಸೈಟ್ ಸಕ್ರಿಯವಿಲ್ಲ — ಮೇಲೆ Zillow ಅಥವಾ Redfin ಆನ್ ಮಾಡಿ.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "ಎಲ್ಲಾ ಬ್ಯಾಡ್ಜ್‌ಗಳು ಮರೆಯಾಗಿವೆ — ಮೇಲೆ ಕನಿಷ್ಠ ಒಂದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "ಪ್ರತಿ Zillow ಮತ್ತು Redfin ಸರ್ಚ್ ಕಾರ್ಡ್‌ಗೆ ಬ್ಯಾಡ್ಜ್ ಹಾಕಲಾಗುತ್ತಿದೆ.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "ಪ್ರತಿ $SITES$ ಸರ್ಚ್ ಕಾರ್ಡ್‌ಗೆ ಬ್ಯಾಡ್ಜ್ ಹಾಕಲಾಗುತ್ತಿದೆ.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow ಮತ್ತು Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "ಸೈಟ್‌ಗಳು",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow ನಲ್ಲಿ ಬ್ಯಾಡ್ಜ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin ನಲ್ಲಿ ಬ್ಯಾಡ್ಜ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "ತೋರಿಸಿದ ಬ್ಯಾಡ್ಜ್‌ಗಳು",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "ಪ್ರತಿ sqft ಬೆಲೆ",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "ಪಟ್ಟಿ ಬೆಲೆ ÷ ವಾಸದ ಪ್ರದೇಶ",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "ಮಾರುಕಟ್ಟೆಯಲ್ಲಿ ದಿನಗಳು",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "ಕಾರ್ಡ್‌ನಿಂದ ಓದಲಾಗಿದೆ, ಎಂದಿಗೂ ಊಹಿಸಿಲ್ಲ",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "ಪ್ರೈಸ್ ಕಟ್",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "ಲಿಸ್ಟಿಂಗ್ ಇಳಿಕೆ ತೋರಿಸಿದಾಗ ಮಾತ್ರ",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "ಪ್ರೈಸ್ ಕಟ್",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "ಪ್ರತಿ-ಚದರ-ಅಡಿ ಬೆಲೆ ಬ್ಯಾಡ್ಜ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "ಮಾರುಕಟ್ಟೆಯಲ್ಲಿ-ದಿನಗಳ ಬ್ಯಾಡ್ಜ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "ಪ್ರೈಸ್-ಕಟ್ ಬ್ಯಾಡ್ಜ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "ಹಳೆಯ ಲಿಸ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "ಕನಿಷ್ಠ ಇಷ್ಟು ದಿನ ಮಾರುಕಟ್ಟೆಯಲ್ಲಿರುವ ಲಿಸ್ಟಿಂಗ್ ಫ್ಲ್ಯಾಗ್ ಮಾಡಿ",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "ದಿನಗಳು",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — ಗ್ರಿಡ್‌ನಲ್ಲಿ ಕ್ರಮ ಕೈಗೊಳ್ಳಿ",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "ಗುರಿ $$/sqft ಹೈಲೈಟ್",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "ಗುರಿಗಿಂತ ಕಡಿಮೆ ಕಾರ್ಡ್ ಹಸಿರು, ಹೆಚ್ಚು ಕೆಂಪು — ಜೊತೆಗೆ ಮಧ್ಯಂಕ ಎದುರು ±",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "ಗುರಿ ಪ್ರತಿ-sqft ಬೆಲೆ ಹೈಲೈಟಿಂಗ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "ಗುರಿ $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "ಫಲಿತಾಂಶ ಸಾರಾಂಶ ಪಟ್ಟಿ",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "ಮಧ್ಯಂಕ / ಕನಿಷ್ಠ / ಗರಿಷ್ಠ $$/sqft, ಪ್ರೈಸ್ ಕಟ್ ಸಂಖ್ಯೆ, ಹಳೆಯ ಸಂಖ್ಯೆ",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "ಫಲಿತಾಂಶ ಸಾರಾಂಶ ಪಟ್ಟಿ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "ಪ್ರೈಸ್ ಕಟ್ ಮಾತ್ರ ತೋರಿಸಿ",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "ಉಳಿದವನ್ನು ಮರೆಮಾಡಿ — ಸ್ಥಳೀಯವಾಗಿ, ಯಾವಾಗಲೂ ಹಿಂತಿರುಗಿಸಬಹುದು",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "ಪ್ರೈಸ್-ಕಟ್ ಲಿಸ್ಟಿಂಗ್ ಮಾತ್ರ ತೋರಿಸುವುದನ್ನು ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "ಗ್ರಿಡ್ ವಿಂಗಡಿಸಿ",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "ಸೈಟ್ ಡೀಫಾಲ್ಟ್ ಕ್ರಮ",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "ಅತಿ ಕಡಿಮೆ $$/sqft ಮೊದಲು",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "ಅತಿ ಹೆಚ್ಚು $$/sqft ಮೊದಲು",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "ಅತಿ ಹೆಚ್ಚು ಸಮಯ ಮಾರುಕಟ್ಟೆಯಲ್ಲಿರುವುದು ಮೊದಲು",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "ಗ್ರಿಡ್ ಅನ್ನು CSV ಗೆ ರಫ್ತು ಮಾಡಿ",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "ಫಲಿತಾಂಶ ಪುಟದಲ್ಲಿ ರಫ್ತು ಬಟನ್ ಬಳಸಿ",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro ಅನ್ಲಾಕ್ ಮಾಡಿ",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 ಜೀವಮಾನ",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "ಸಹಾಯ",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "ಗೌಪ್ಯತೆ",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "ಉಚಿತ ಯೋಜನೆ",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro ಟ್ರಯಲ್",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro ಯೋಜನೆ",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "ಉಳಿಸಲಾಗಲಿಲ್ಲ — ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV ರಫ್ತು",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "ಮಧ್ಯಂಕ $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "ಕನಿಷ್ಠ",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "ಗರಿಷ್ಠ",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "ಪ್ರೈಸ್ ಕಟ್",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "ಹಳೆಯ",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "ಪರಿಚಯ ಬಿಟ್ಟುಬಿಡಿ",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "ಹಿಂದೆ",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "ಮುಂದೆ",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "ಬಹುಶಃ ನಂತರ",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "ಒಂದು Zillow ಸರ್ಚ್ ತೆರೆಯಿರಿ",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "ಡೆಮೊ ಮತ್ತೆ ಚಲಾಯಿಸಿ",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "ನನ್ನ ಗುರಿ ಉಳಿಸಿ",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "ಗುರಿ ಉಳಿಸಲಾಗಿದೆ",
+    "description": "Onboarding: save button label after saving."
+  }
+}

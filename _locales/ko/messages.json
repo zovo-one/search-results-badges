@@ -1,0 +1,304 @@
+{
+  "extName": {
+    "message": "검색 결과 배지: $$/sqft, DOM, 가격 인하",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "그리드 배지",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "모든 Zillow 및 Redfin 검색 카드에 평방피트당 가격, 매물 게시 일수, 가격 인하 표시를 찍어 그리드를 한눈에 분류하세요.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+
+  "popupTitle": {
+    "message": "그리드 배지",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "검색 결과 배지 전환",
+    "description": "Aria-label for the master on/off switch."
+  },
+
+  "statusPaused": {
+    "message": "일시중지됨 — 지금은 배지가 표시되지 않습니다.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "활성화된 사이트 없음 — 위에서 Zillow 또는 Redfin을 켜세요.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "모든 배지가 숨겨졌습니다 — 위에서 하나 이상 활성화하세요.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "모든 Zillow 및 Redfin 검색 카드에 배지를 표시 중.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "모든 $SITES$ 검색 카드에 배지를 표시 중.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": { "content": "$1", "example": "Zillow & Redfin" }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow 및 Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+
+  "secSites": {
+    "message": "사이트",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow 배지 전환",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin 배지 전환",
+    "description": "Aria-label for the Redfin site switch."
+  },
+
+  "secBadges": {
+    "message": "표시할 배지",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "평방피트당 가격",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "표시 가격 ÷ 주거 면적",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "매물 게시 일수",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "카드에서 읽어오며, 추측하지 않음",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "가격 인하",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "매물에 인하가 표시된 경우에만",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "가격 인하",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "평방피트당 가격 배지 전환",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "매물 게시 일수 배지 전환",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "가격 인하 배지 전환",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+
+  "secTuning": {
+    "message": "오래된 매물",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "다음 일수 이상 게시된 매물 표시",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "일",
+    "description": "Days unit suffix."
+  },
+
+  "secPro": {
+    "message": "Pro — 그리드에서 바로 실행",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "목표 $$/sqft 강조",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "목표 미만 카드는 초록, 초과는 빨강으로 표시 — 중앙값 대비 ± 도 함께",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "목표 평방피트당 가격 강조 전환",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "목표 $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "결과 요약 표시줄",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "중앙값 / 최소 / 최대 $$/sqft, 가격 인하 수, 오래된 매물 수",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "결과 요약 표시줄 전환",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "가격 인하 매물만 표시",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "나머지는 숨김 — 로컬 처리, 언제든 되돌릴 수 있음",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "가격 인하 매물만 표시 전환",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "그리드 정렬",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "사이트 기본 순서",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "$$/sqft 낮은 순",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "$$/sqft 높은 순",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "게시 기간 긴 순",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "그리드를 CSV로 내보내기",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "결과 페이지의 내보내기 버튼 사용",
+    "description": "Pro export row sublabel."
+  },
+
+  "upgradeCta": {
+    "message": "Pro 잠금 해제",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 평생 이용",
+    "description": "Upgrade button price line."
+  },
+
+  "linkHelp": {
+    "message": "도움말",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "개인정보",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "무료 플랜",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro 체험판",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro 플랜",
+    "description": "Footer tier line — pro."
+  },
+
+  "toastSaveFail": {
+    "message": "저장할 수 없습니다 — 다시 시도해 주세요.",
+    "description": "Toast shown when persisting settings fails."
+  },
+
+  "summaryExport": {
+    "message": "CSV 내보내기",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "중앙값 $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "최소",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "최대",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "가격 인하",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "오래된 매물",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+
+  "obSkip": {
+    "message": "소개 건너뛰기",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "뒤로",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "다음",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "나중에",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Zillow 검색 열기",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "데모 다시 재생",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "내 목표 저장",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "목표 저장됨",
+    "description": "Onboarding: save button label after saving."
+  }
+}

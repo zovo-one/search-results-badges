@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "സെർച്ച്-റിസൾട്ട് ബാഡ്ജ്: $$/sqft, DOM, പ്രൈസ്-കട്ട്",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "ഗ്രിഡ് ബാഡ്ജ്",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "ഓരോ Zillow, Redfin സെർച്ച് കാർഡിലും ഓരോ sqft വില, മാർക്കറ്റിലുള്ള ദിവസങ്ങൾ, പ്രൈസ്-കട്ട് ഫ്ലാഗ് കാണിക്കുന്നു — ഒറ്റനോട്ടത്തിൽ ഗ്രിഡ് വേർതിരിക്കൂ.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "ഗ്രിഡ് ബാഡ്ജ്",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "സെർച്ച്-റിസൾട്ട് ബാഡ്ജ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "താൽക്കാലികമായി നിർത്തി — ഇപ്പോൾ ബാഡ്ജുകളൊന്നും കാണിക്കുന്നില്ല.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "സൈറ്റുകളൊന്നും പ്രവർത്തനക്ഷമമല്ല — മുകളിൽ Zillow അല്ലെങ്കിൽ Redfin ഓണാക്കുക.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "എല്ലാ ബാഡ്ജുകളും മറച്ചിരിക്കുന്നു — മുകളിൽ കുറഞ്ഞത് ഒന്ന് പ്രവർത്തനക്ഷമമാക്കുക.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "ഓരോ Zillow, Redfin സെർച്ച് കാർഡിലും ബാഡ്ജ് ചേർക്കുന്നു.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "ഓരോ $SITES$ സെർച്ച് കാർഡിലും ബാഡ്ജ് ചേർക്കുന്നു.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow, Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "സൈറ്റുകൾ",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow-ൽ ബാഡ്ജ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin-ൽ ബാഡ്ജ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "കാണിക്കുന്ന ബാഡ്ജുകൾ",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "ഓരോ sqft വില",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "ലിസ്റ്റ് വില ÷ താമസ വിസ്തീർണ്ണം",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "മാർക്കറ്റിലുള്ള ദിവസങ്ങൾ",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "കാർഡിൽ നിന്ന് വായിച്ചത്, ഒരിക്കലും ഊഹിച്ചതല്ല",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "പ്രൈസ് കട്ട്",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "ലിസ്റ്റിംഗിൽ കുറവ് കാണിക്കുമ്പോൾ മാത്രം",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "പ്രൈസ് കട്ട്",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "ഓരോ-ചതുരശ്ര-അടി വില ബാഡ്ജ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "മാർക്കറ്റിലുള്ള-ദിവസങ്ങൾ ബാഡ്ജ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "പ്രൈസ്-കട്ട് ബാഡ്ജ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "പഴയ ലിസ്റ്റിംഗുകൾ",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "കുറഞ്ഞത് ഇത്ര ദിവസം മാർക്കറ്റിലുള്ള ലിസ്റ്റിംഗ് ഫ്ലാഗ് ചെയ്യുക",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "ദിവസങ്ങൾ",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — ഗ്രിഡിൽ പ്രവർത്തിക്കൂ",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "ലക്ഷ്യം $$/sqft ഹൈലൈറ്റ്",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "ലക്ഷ്യത്തിന് താഴെ കാർഡ് പച്ച, മുകളിൽ ചുവപ്പ് — കൂടെ മീഡിയൻ vs ±",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "ലക്ഷ്യം ഓരോ-sqft വില ഹൈലൈറ്റിംഗ് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "ലക്ഷ്യം $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "ഫലങ്ങളുടെ സംഗ്രഹ ബാർ",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "മീഡിയൻ / കുറഞ്ഞത് / കൂടിയത് $$/sqft, പ്രൈസ് കട്ട് എണ്ണം, പഴയവയുടെ എണ്ണം",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "ഫലങ്ങളുടെ സംഗ്രഹ ബാർ ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "പ്രൈസ് കട്ട് മാത്രം കാണിക്കുക",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "ബാക്കിയുള്ളവ മറയ്ക്കുക — പ്രാദേശികമായി, എപ്പോഴും തിരികെ ചെയ്യാം",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "പ്രൈസ്-കട്ട് ലിസ്റ്റിംഗ് മാത്രം കാണിക്കുന്നത് ടോഗിൾ ചെയ്യുക",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "ഗ്രിഡ് അടുക്കുക",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "സൈറ്റ് ഡിഫോൾട്ട് ക്രമം",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "ഏറ്റവും കുറഞ്ഞ $$/sqft ആദ്യം",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "ഏറ്റവും കൂടിയ $$/sqft ആദ്യം",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "ഏറ്റവും കൂടുതൽ കാലം മാർക്കറ്റിലുള്ളത് ആദ്യം",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "ഗ്രിഡ് CSV-ലേക്ക് എക്സ്പോർട്ട് ചെയ്യുക",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "ഫലങ്ങളുടെ പേജിലെ എക്സ്പോർട്ട് ബട്ടൺ ഉപയോഗിക്കുക",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro അൺലോക്ക് ചെയ്യുക",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 ആജീവനാന്തം",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "സഹായം",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "സ്വകാര്യത",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "ഫ്രീ പ്ലാൻ",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro ട്രയൽ",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro പ്ലാൻ",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "സംരക്ഷിക്കാനായില്ല — വീണ്ടും ശ്രമിക്കുക.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV എക്സ്പോർട്ട്",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "മീഡിയൻ $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "കുറഞ്ഞത്",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "കൂടിയത്",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "പ്രൈസ് കട്ട്",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "പഴയവ",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "ആമുഖം ഒഴിവാക്കുക",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "പിന്നോട്ട്",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "അടുത്തത്",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "പിന്നീടാകാം",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "ഒരു Zillow സെർച്ച് തുറക്കുക",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "ഡെമോ വീണ്ടും പ്ലേ ചെയ്യുക",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "എന്റെ ലക്ഷ്യം സംരക്ഷിക്കുക",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "ലക്ഷ്യം സംരക്ഷിച്ചു",
+    "description": "Onboarding: save button label after saving."
+  }
+}

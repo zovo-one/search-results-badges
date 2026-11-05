@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "תגי תוצאות חיפוש: $$/sqft, DOM, הפחתת מחיר",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "תגי רשת",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "מסמן כל כרטיס חיפוש ב-Zillow וב-Redfin עם מחיר לכל sqft, ימים בשוק ודגל הפחתת מחיר — הערך את הרשת במבט אחד.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "תגי רשת",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "החלף תגי תוצאות חיפוש",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "מושהה — לא מוצגים תגים כרגע.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "אין אתרים מופעלים — הפעל את Zillow או Redfin למעלה.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "כל התגים מוסתרים — הפעל לפחות אחד למעלה.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "מסמן כל כרטיס חיפוש ב-Zillow וב-Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "מסמן כל כרטיס חיפוש ב-$SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow ו-Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "אתרים",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "החלף תגים ב-Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "החלף תגים ב-Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "תגים מוצגים",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "מחיר לכל sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "מחיר מבוקש ÷ שטח מגורים",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "ימים בשוק",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "נקרא מהכרטיס, לעולם לא מנוחש",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "הפחתת מחיר",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "רק כאשר המודעה מציגה הפחתה",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "הפחתת מחיר",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "החלף את תג המחיר לכל רגל מרובעת",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "החלף את תג הימים בשוק",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "החלף את תג הפחתת המחיר",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "מודעות ישנות",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "סמן מודעות שנמצאות בשוק לפחות",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "ימים",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — פעל על הרשת",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "הדגשת יעד $$/sqft",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "צבע כרטיסים בירוק מתחת ליעד, באדום מעליו — בתוספת ± לעומת החציון",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "החלף הדגשת מחיר יעד לכל רגל מרובעת",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "יעד $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "סרגל סיכום תוצאות",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "חציון / מינ' / מקס' $$/sqft, # הפחתות מחיר, # ישנות",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "החלף את סרגל סיכום התוצאות",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "הצג רק הפחתות מחיר",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "הסתר את השאר — מקומית, תמיד ניתן לביטול",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "החלף הצגת מודעות עם הפחתת מחיר בלבד",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "מיין את הרשת",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "סדר ברירת המחדל של האתר",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "$$/sqft הנמוך ביותר תחילה",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "$$/sqft הגבוה ביותר תחילה",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "הזמן הארוך ביותר בשוק תחילה",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "ייצא את הרשת ל-CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "השתמש בכפתור הייצוא בעמוד התוצאות",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "פתח את Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 לכל החיים",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "עזרה",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "פרטיות",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "תוכנית חינם",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "ניסיון Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "תוכנית Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "לא ניתן לשמור — אנא נסה שוב.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "ייצא CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "חציון $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "מינ'",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "מקס'",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "הפחתות מחיר",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "ישן",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "דלג על המבוא",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "חזרה",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "הבא",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "אולי מאוחר יותר",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "פתח חיפוש Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "הפעל שוב את ההדגמה",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "שמור את היעד שלי",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "היעד נשמר",
+    "description": "Onboarding: save button label after saving."
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Találati jelvények: $$/sqft, DOM, árcsökkentés",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Rács jelvények",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Minden Zillow és Redfin találati kártyát megjelöl négyzetlábankénti árral, piacon töltött napokkal és árcsökkentési jelzéssel — egy pillantással átlátható a rács.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Rács jelvények",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Találati jelvények be-/kikapcsolása",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Szüneteltetve — jelenleg nem jelennek meg jelvények.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Nincs engedélyezett webhely — kapcsolja be a Zillow vagy Redfin oldalt fent.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Minden jelvény rejtve — engedélyezzen legalább egyet fent.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Minden Zillow és Redfin találati kártya megjelölése.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Minden $SITES$ találati kártya megjelölése.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow és Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Webhelyek",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Jelvények be-/kikapcsolása a Zillow oldalon",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Jelvények be-/kikapcsolása a Redfin oldalon",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Megjelenített jelvények",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Négyzetlábankénti ár",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Listaár ÷ lakóterület",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Piacon töltött napok",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "A kártyáról olvasva, sosem becsülve",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Árcsökkentés",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Csak ha a hirdetés csökkentést mutat",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Árcsökkentés",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Négyzetlábankénti ár jelvény be-/kikapcsolása",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Piacon töltött napok jelvény be-/kikapcsolása",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Árcsökkentés jelvény be-/kikapcsolása",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Régi hirdetések",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Jelölje meg a legalább ennyi ideje piacon lévő hirdetéseket",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "nap",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — cselekedjen a rácson",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Cél $$/sqft kiemelés",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "A cél alatti kártyákat zöldre, a felette lévőket pirosra színezi — plusz ± a mediánhoz képest",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Cél négyzetlábankénti ár kiemelésének be-/kikapcsolása",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Cél $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Eredmények összefoglaló sávja",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Medián / min / max $$/sqft, # árcsökkentés, # régi",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Eredmények összefoglaló sávjának be-/kikapcsolása",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Csak árcsökkentések megjelenítése",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "A többi elrejtése — helyileg, mindig visszavonható",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Csak az árcsökkentett hirdetések megjelenítésének be-/kikapcsolása",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Rács rendezése",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Webhely alapértelmezett sorrendje",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Legalacsonyabb $$/sqft először",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Legmagasabb $$/sqft először",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Legrégebben piacon lévők először",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Rács exportálása CSV-be",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Használja az Exportálás gombot az eredményoldalon",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro feloldása",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 örökre",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Súgó",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Adatvédelem",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Ingyenes csomag",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro próbaverzió",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro csomag",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Nem sikerült menteni — kérjük, próbálja újra.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV exportálása",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "medián $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "max",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "árcsökkentés",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "régi",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Bevezető kihagyása",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Vissza",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Tovább",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Talán később",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Zillow keresés megnyitása",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Demó újrajátszása",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Célom mentése",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Cél mentve",
+    "description": "Onboarding: save button label after saving."
+  }
+}

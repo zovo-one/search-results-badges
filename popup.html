@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grid Badges</title>
+    <link rel="stylesheet" href="searcc5c0-base.css" />
+    
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body class="">
+    <div class="searcc5c0-root searcc5c0-popup" id="app">
+      <!-- Header ------------------------------------------------------------ -->
+      <header class="searcc5c0-header">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 28 28" width="28" height="28" fill="none">
+            <rect x="1" y="1" width="26" height="26" rx="7" fill="url(#bm)" />
+            <path d="M8 14.5l3.6 3.6L20 9.5" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+            <defs>
+              <linearGradient id="bm" x1="1" y1="1" x2="27" y2="27" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C5CE7" />
+                <stop offset="1" stop-color="#00D2D3" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="searcc5c0-header__title" data-i18n="popupTitle">Grid Badges</span>
+        <button
+          type="button"
+          id="masterSwitch"
+          class="sw"
+          role="switch"
+          aria-checked="true"
+          aria-label="Toggle Search-Results Badges"
+          data-i18n-label="toggleMaster"
+        >
+          <span class="sw__dot"></span>
+        </button>
+      </header>
+
+      <!-- Hero: the one thing — a live badge preview ------------------------ -->
+      <section class="hero">
+        <div class="preview" id="preview">
+          <div class="preview__price">$762,000</div>
+          <div class="preview__cluster" aria-hidden="true">
+            <span class="chip chip--ppsf" data-badge="ppsf">$412<span class="chip__unit">/sqft</span></span>
+            <span class="chip chip--dom" data-badge="dom">21d</span>
+            <span class="chip chip--cut" data-badge="cut">Price cut</span>
+          </div>
+          <div class="preview__meta">3 bd · 2 ba · 1,850 sqft · <span class="preview__tag">sample card</span></div>
+        </div>
+        <p class="hero__status" id="statusLine" role="status" aria-live="polite" data-i18n="statusOn">
+          Badging every Zillow &amp; Redfin search card.
+        </p>
+      </section>
+
+      <div class="searcc5c0-stack">
+        <!-- Sites ----------------------------------------------------------- -->
+        <section class="searcc5c0-card searcc5c0-card--flush" aria-labelledby="lblSites">
+          <p class="searcc5c0-eyebrow" id="lblSites" data-i18n="secSites">Sites</p>
+          <div class="row" data-row>
+            <span class="row__text">
+              <span class="row__label" data-i18n="siteZillow">Zillow</span>
+              <span class="row__sub">zillow.com</span>
+            </span>
+            <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Toggle badges on Zillow" data-i18n-label="labelSiteZillow" data-key="site.zillow"><span class="sw__dot"></span></button>
+          </div>
+          <div class="row" data-row>
+            <span class="row__text">
+              <span class="row__label" data-i18n="siteRedfin">Redfin</span>
+              <span class="row__sub">redfin.com</span>
+            </span>
+            <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Toggle badges on Redfin" data-i18n-label="labelSiteRedfin" data-key="site.redfin"><span class="sw__dot"></span></button>
+          </div>
+        </section>
+
+        <!-- Badges ---------------------------------------------------------- -->
+        <section class="searcc5c0-card searcc5c0-card--flush" aria-labelledby="lblBadges">
+          <p class="searcc5c0-eyebrow" id="lblBadges" data-i18n="secBadges">Badges shown</p>
+          <div class="row" data-row>
+            <span class="row__text">
+              <span class="row__label" data-i18n="badgePpsf">Price per sqft</span>
+              <span class="row__sub" data-i18n="badgePpsfSub">List price ÷ living area</span>
+            </span>
+            <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Toggle the price-per-square-foot badge" data-i18n-label="labelBadgePpsf" data-key="badge.ppsf"><span class="sw__dot"></span></button>
+          </div>
+          <div class="row" data-row>
+            <span class="row__text">
+              <span class="row__label" data-i18n="badgeDom">Days on market</span>
+              <span class="row__sub" data-i18n="badgeDomSub">Read from the card, never guessed</span>
+            </span>
+            <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Toggle the days-on-market badge" data-i18n-label="labelBadgeDom" data-key="badge.dom"><span class="sw__dot"></span></button>
+          </div>
+          <div class="row" data-row>
+            <span class="row__text">
+              <span class="row__label" data-i18n="badgeCut">Price cut</span>
+              <span class="row__sub" data-i18n="badgeCutSub">Only when the listing shows a reduction</span>
+            </span>
+            <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Toggle the price-cut badge" data-i18n-label="labelBadgeCut" data-key="badge.cut"><span class="sw__dot"></span></button>
+          </div>
+        </section>
+
+        <!-- Stale threshold ------------------------------------------------- -->
+        <section class="searcc5c0-card searcc5c0-card--flush" aria-labelledby="lblStale">
+          <p class="searcc5c0-eyebrow" id="lblStale" data-i18n="secTuning">Stale listings</p>
+          <label class="field" for="staleInput">
+            <span class="field__label" data-i18n="staleLabel">Flag listings on market at least</span>
+            <span class="field__control">
+              <input class="searcc5c0-input field__num" id="staleInput" type="number" inputmode="numeric" min="1" max="3650" step="1" value="90" />
+              <span class="field__suffix" data-i18n="unitDays">days</span>
+            </span>
+          </label>
+        </section>
+
+        <!-- Pro ------------------------------------------------------------- -->
+        <section class="searcc5c0-card pro-card" aria-labelledby="lblPro">
+          <div class="pro-card__head">
+            <p class="searcc5c0-eyebrow" id="lblPro" data-i18n="secPro">Pro — act on the grid</p>
+            <span class="searcc5c0-pro-badge" id="proBadge">
+              <svg class="searcc5c0-pro-badge__lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5Zm3 8H9V6a3 3 0 1 1 6 0v3Z"/></svg>
+              <span id="proBadgeText">Pro</span>
+            </span>
+          </div>
+
+          <!-- Pro capability rows: locked (free) → live (pro) --------------- -->
+          <div class="prorow" data-pro="highlight" data-where="target-highlight">
+            <span class="row__text">
+              <span class="row__label" data-i18n="proHighlight">Target $/sqft highlight</span>
+              <span class="row__sub" data-i18n="proHighlightSub">Tint cards green under target, red over — plus ± vs median</span>
+            </span>
+            <button type="button" class="sw pro-live" role="switch" aria-checked="false" aria-label="Toggle target price-per-sqft highlighting" data-i18n-label="labelProHighlight" data-key="pro.highlight"><span class="sw__dot"></span></button>
+            <svg class="pro-lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5Zm3 8H9V6a3 3 0 1 1 6 0v3Z"/></svg>
+          </div>
+
+          <label class="field pro-live-block" for="targetInput" data-where="target-highlight">
+            <span class="field__label" data-i18n="proTarget">Target $/sqft</span>
+            <span class="field__control">
+              <span class="field__prefix">$</span>
+              <input class="searcc5c0-input field__num" id="targetInput" type="number" inputmode="numeric" min="1" max="100000" step="1" placeholder="400" />
+              <span class="field__suffix" data-i18n="unitPerSqft">/sqft</span>
+            </span>
+          </label>
+
+          <div class="prorow" data-pro="summary" data-where="summary-bar">
+            <span class="row__text">
+              <span class="row__label" data-i18n="proSummary">Results summary bar</span>
+              <span class="row__sub" data-i18n="proSummarySub">Median / min / max $/sqft, # price cuts, # stale</span>
+            </span>
+            <button type="button" class="sw pro-live" role="switch" aria-checked="false" aria-label="Toggle the results summary bar" data-i18n-label="labelProSummary" data-key="pro.summary"><span class="sw__dot"></span></button>
+            <svg class="pro-lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5Zm3 8H9V6a3 3 0 1 1 6 0v3Z"/></svg>
+          </div>
+
+          <div class="prorow" data-pro="onlyCuts" data-where="filter-sort">
+            <span class="row__text">
+              <span class="row__label" data-i18n="proOnlyCuts">Show only price cuts</span>
+              <span class="row__sub" data-i18n="proOnlyCutsSub">Hide the rest — locally, always reversible</span>
+            </span>
+            <button type="button" class="sw pro-live" role="switch" aria-checked="false" aria-label="Toggle showing only price-cut listings" data-i18n-label="labelProOnlyCuts" data-key="pro.onlyCuts"><span class="sw__dot"></span></button>
+            <svg class="pro-lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5Zm3 8H9V6a3 3 0 1 1 6 0v3Z"/></svg>
+          </div>
+
+          <label class="field pro-live-block" for="sortSelect" data-where="filter-sort">
+            <span class="field__label" data-i18n="proSort">Sort the grid</span>
+            <span class="field__control">
+              <select class="searcc5c0-input field__select" id="sortSelect">
+                <option value="none" data-i18n="sortNone">Site default order</option>
+                <option value="ppsfAsc" data-i18n="sortPpsfAsc">Lowest $/sqft first</option>
+                <option value="ppsfDesc" data-i18n="sortPpsfDesc">Highest $/sqft first</option>
+                <option value="domDesc" data-i18n="sortDomDesc">Longest on market first</option>
+              </select>
+            </span>
+          </label>
+
+          <div class="prorow prorow--static" data-where="csv-export">
+            <span class="row__text">
+              <span class="row__label" data-i18n="proExport">Export the grid to CSV</span>
+              <span class="row__sub" id="exportSub" data-i18n="proExportSub">Use the Export button on the results page</span>
+            </span>
+            <svg class="pro-lock" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5Zm3 8H9V6a3 3 0 1 1 6 0v3Z"/></svg>
+          </div>
+
+          <button type="button" class="searcc5c0-btn searcc5c0-btn--pro searcc5c0-btn--block pro-cta" id="upgradeBtn" data-where="pro-section">
+            <span data-i18n="upgradeCta">Unlock Pro</span>
+            <span class="pro-cta__price" data-i18n="upgradePrice">$99 lifetime</span>
+          </button>
+        </section>
+      </div>
+
+      <!-- Footer ------------------------------------------------------------ -->
+      <footer class="searcc5c0-footer">
+        <a href="" target="_blank" rel="noopener noreferrer" data-i18n="linkHelp">Help</a>
+        <span class="searcc5c0-muted" id="tierLine" data-i18n="tierFree">Free plan</span>
+        <a href="" target="_blank" rel="noopener noreferrer" data-i18n="linkPrivacy">Privacy</a>
+      </footer>
+
+      <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    </div>
+
+    <!-- ========================================================================
+      Selling paywall (MONETIZE-STANDARD §4). Inert until .init() mounts
+      it; opens at peak intent (locked Pro tap / Unlock Pro). All copy filled at
+      runtime by popup.js — headline benefit, free-vs-Pro, $99 lifetime, 14-day
+      money-back guarantee, canonical /pricing CTA, and license-key activation.
+    ========================================================================= -->
+    <div class="searcc5c0-root searcc5c0-paywall" id="searcc5c0-paywall" role="dialog" aria-modal="true"
+         aria-labelledby="searcc5c0-paywall-title" hidden>
+      <div class="searcc5c0-paywall__backdrop" data-paywall-close></div>
+      <div class="searcc5c0-paywall__panel" role="document">
+        <button type="button" class="searcc5c0-paywall__x" aria-label="Close" data-paywall-close>&times;</button>
+
+        <header class="searcc5c0-paywall__head">
+          <span class="searcc5c0-pro-badge searcc5c0-pro-badge--solid">
+            <svg class="searcc5c0-pro-badge__lock" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/>
+            </svg>
+            PRO
+          </span>
+          <h2 class="searcc5c0-paywall__title" id="searcc5c0-paywall-title">Unlock Search-Results Badges Pro</h2>
+          <p class="searcc5c0-paywall__sub">Act on the whole grid — filter, sort, highlight and export around the numbers you already read for free.</p>
+          <div class="searcc5c0-paywall__trial" id="searcc5c0-trial" role="status" aria-live="polite" hidden>
+            <span class="searcc5c0-paywall__trial-dot"></span>
+            <span id="searcc5c0-trial-text">7-day Pro trial active</span>
+          </div>
+        </header>
+
+        <div class="searcc5c0-paywall__compare">
+          <section class="searcc5c0-plan" aria-labelledby="searcc5c0-plan-free">
+            <h3 class="searcc5c0-plan__name" id="searcc5c0-plan-free">Free</h3>
+            <div class="searcc5c0-plan__price"><span class="searcc5c0-plan__amount">$0</span></div>
+            <p class="searcc5c0-plan__note">Read every badge, forever.</p>
+            <ul class="searcc5c0-plan__list" id="searcc5c0-free-features"></ul>
+          </section>
+
+          <section class="searcc5c0-plan searcc5c0-plan--pro" aria-labelledby="searcc5c0-plan-pro">
+            <span class="searcc5c0-plan__ribbon">Best value</span>
+            <h3 class="searcc5c0-plan__name" id="searcc5c0-plan-pro">Pro · Lifetime</h3>
+            <div class="searcc5c0-plan__price">
+              <span class="searcc5c0-plan__amount" id="searcc5c0-price">$99</span>
+              <span class="searcc5c0-plan__unit">one-time</span>
+            </div>
+            <p class="searcc5c0-plan__reframe" id="searcc5c0-reframe" hidden></p>
+            <p class="searcc5c0-plan__note" id="searcc5c0-price-note">Pay once. Yours forever.</p>
+            <ul class="searcc5c0-plan__list" id="searcc5c0-pro-features"></ul>
+          </section>
+        </div>
+
+        <a class="searcc5c0-btn searcc5c0-btn--pro searcc5c0-btn--block searcc5c0-paywall__cta" id="searcc5c0-upgrade-cta"
+           href="#" target="_blank" rel="noopener noreferrer">Get Pro — $99 Lifetime</a>
+
+        <button type="button" class="searcc5c0-btn searcc5c0-btn--ghost searcc5c0-btn--block searcc5c0-paywall__trial-cta"
+                id="searcc5c0-trial-cta" hidden>Start 7-day free trial — no card</button>
+
+        <p class="searcc5c0-paywall__anchor-note" id="searcc5c0-anchor-note"></p>
+        <p class="searcc5c0-paywall__guarantee" id="searcc5c0-guarantee" hidden></p>
+
+        <details class="searcc5c0-paywall__activate">
+          <summary>Already have a license key?</summary>
+          <form class="searcc5c0-paywall__key-form" id="searcc5c0-key-form" novalidate>
+            <label class="searcc5c0-label" for="searcc5c0-key-input">Paste your  license key</label>
+            <div class="searcc5c0-paywall__key-row">
+              <input class="searcc5c0-input searcc5c0-mono" id="searcc5c0-key-input" name="licenseKey"
+                     type="text" autocomplete="off" spellcheck="false"
+                     placeholder="SEAR-XXXX-XXXX-XXXX-XXXX" aria-describedby="searcc5c0-key-status" />
+              <button type="submit" class="searcc5c0-btn searcc5c0-btn--primary" id="searcc5c0-key-verify">Verify</button>
+            </div>
+            <p class="searcc5c0-paywall__key-status" id="searcc5c0-key-status" role="status" aria-live="polite"></p>
+          </form>
+        </details>
+
+        <footer class="searcc5c0-footer searcc5c0-paywall__foot">
+          <span> · zero data collection</span>
+          <a id="searcc5c0-manage-link" href="#" target="_blank" rel="noopener noreferrer">Manage membership &rarr;</a>
+        </footer>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="zovo150k.js" defer></script>
+</body>
+</html>

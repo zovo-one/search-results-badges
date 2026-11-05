@@ -1,0 +1,155 @@
+/* ============================================================================
+ * options.css — Search-Results Badges options page (imports searcc5c0-base.css first).
+ * The full-width management + Pro surface: plan/license, the free-vs-Pro value
+ * stack (Pro veil), and the conversion sidebar. On-brand in light and dark via
+ * --searcc5c0-* tokens; one hero (the plan header), hairline borders elsewhere.
+ * ========================================================================== */
+
+.searcc5c0-options {
+  background: var(--searcc5c0-surface);
+  color: var(--searcc5c0-text);
+  min-height: 100vh;
+}
+.opt-shell {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: var(--searcc5c0-space-7) var(--searcc5c0-space-5) var(--searcc5c0-space-6);
+}
+
+/* ---- Header --------------------------------------------------------------- */
+.opt-header {
+  display: flex;
+  align-items: center;
+  gap: var(--searcc5c0-space-3);
+  padding-bottom: var(--searcc5c0-space-5);
+  margin-bottom: var(--searcc5c0-space-5);
+  border-bottom: 1px solid var(--searcc5c0-border);
+}
+.opt-mark { display: inline-flex; flex: none; }
+.opt-mark svg { display: block; border-radius: var(--searcc5c0-radius-input); }
+.opt-head-text { flex: 1; min-width: 0; }
+.opt-title {
+  margin: 0;
+  font-size: var(--searcc5c0-fs-heading);
+  font-weight: var(--searcc5c0-fw-heading);
+  letter-spacing: -0.02em;
+}
+.opt-sub { margin: 2px 0 0; font-size: var(--searcc5c0-fs-caption); }
+.opt-head-cta { flex: none; }
+
+/* ---- Grid ----------------------------------------------------------------- */
+.opt-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: var(--searcc5c0-space-5);
+  align-items: start;
+}
+.opt-main { display: flex; flex-direction: column; gap: var(--searcc5c0-space-4); min-width: 0; }
+.opt-card { padding: var(--searcc5c0-space-5); }
+.opt-card .searcc5c0-eyebrow { margin: 0 0 var(--searcc5c0-space-3); }
+.opt-help { font-size: var(--searcc5c0-fs-caption); line-height: 1.5; margin: var(--searcc5c0-space-3) 0 0; }
+
+/* ---- License / plan ------------------------------------------------------- */
+.opt-license { display: flex; align-items: flex-start; gap: var(--searcc5c0-space-3); }
+.opt-license__dot {
+  flex: none;
+  width: 10px; height: 10px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: var(--searcc5c0-text-secondary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--searcc5c0-text-secondary) 20%, transparent);
+}
+.opt-license__dot.is-pro {
+  background: var(--searcc5c0-success);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--searcc5c0-success) 22%, transparent);
+}
+.opt-license__tier { font-size: var(--searcc5c0-fs-body); font-weight: var(--searcc5c0-fw-heading); }
+.opt-license__note { font-size: var(--searcc5c0-fs-caption); margin-top: 2px; }
+.opt-btn-row { display: flex; flex-wrap: wrap; gap: var(--searcc5c0-space-3); margin-top: var(--searcc5c0-space-4); }
+
+/* ---- Free vs Pro (the value stack / veil) --------------------------------- */
+.opt-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--searcc5c0-space-3);
+  margin-top: var(--searcc5c0-space-4);
+}
+.opt-plan {
+  position: relative;
+  padding: var(--searcc5c0-space-4);
+  background: var(--searcc5c0-surface);
+  border: 1px solid var(--searcc5c0-border);
+  border-radius: var(--searcc5c0-radius-card);
+}
+.opt-plan--pro { background: var(--searcc5c0-primary-50); border-color: var(--searcc5c0-primary); }
+.opt-plan__ribbon {
+  position: absolute;
+  top: -10px; right: var(--searcc5c0-space-3);
+  padding: 2px 10px;
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--searcc5c0-on-pro);
+  background: var(--searcc5c0-pro);
+  border-radius: var(--searcc5c0-radius-pill);
+}
+.opt-plan__name {
+  font-size: var(--searcc5c0-fs-caption);
+  font-weight: var(--searcc5c0-fw-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--searcc5c0-text-secondary);
+}
+.opt-plan__price {
+  display: flex; align-items: baseline; gap: 6px;
+  margin: var(--searcc5c0-space-1) 0 var(--searcc5c0-space-3);
+  font-size: var(--searcc5c0-fs-title);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.opt-plan__unit { font-size: var(--searcc5c0-fs-caption); font-weight: 400; color: var(--searcc5c0-text-secondary); }
+.opt-plan__list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
+.opt-plan__list li {
+  position: relative;
+  padding-left: 22px;
+  font-size: var(--searcc5c0-fs-caption);
+  line-height: 1.45;
+}
+.opt-plan__list li::before {
+  content: '';
+  position: absolute; left: 4px; top: 4px;
+  width: 6px; height: 10px;
+  border: solid var(--searcc5c0-success);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.opt-plan__list--free li::before {
+  border-color: var(--searcc5c0-primary);
+}
+.opt-plan__reassure { font-size: var(--searcc5c0-fs-caption); line-height: 1.5; margin: var(--searcc5c0-space-4) 0 0; }
+
+/* ---- About ---------------------------------------------------------------- */
+.opt-about-links { display: flex; flex-wrap: wrap; gap: var(--searcc5c0-space-4); margin-top: var(--searcc5c0-space-3); }
+.opt-about-links a { font-size: var(--searcc5c0-fs-caption); font-weight: var(--searcc5c0-fw-medium); color: var(--searcc5c0-primary); text-decoration: none; }
+.opt-about-links a:hover { text-decoration: underline; }
+
+/* ---- Footer --------------------------------------------------------------- */
+.opt-foot {
+  margin-top: var(--searcc5c0-space-6);
+  padding-top: var(--searcc5c0-space-4);
+  border-top: 1px solid var(--searcc5c0-border);
+  font-size: var(--searcc5c0-fs-caption);
+  text-align: center;
+}
+
+/* Pro state: hide the sell, keep the plan status. */
+#app.is-pro .opt-head-cta,
+#app.is-pro #optUnlock { display: none; }
+
+/* ---- Responsive ----------------------------------------------------------- */
+@media (max-width: 760px) {
+  .opt-grid { grid-template-columns: 1fr; }
+  .searcc5c0-sidebar { width: 100%; }
+}
+@media (max-width: 460px) {
+  .opt-compare { grid-template-columns: 1fr; }
+}

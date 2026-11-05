@@ -1,0 +1,304 @@
+{
+  "extName": {
+    "message": "搜索结果徽章：$$/sqft、DOM、降价",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "网格徽章",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "为每张 Zillow 和 Redfin 搜索卡片标注每平方英尺单价、在售天数和降价标记——一眼筛查整个网格。",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+
+  "popupTitle": {
+    "message": "网格徽章",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "切换搜索结果徽章",
+    "description": "Aria-label for the master on/off switch."
+  },
+
+  "statusPaused": {
+    "message": "已暂停——当前不显示任何徽章。",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "未启用任何站点——请在上方开启 Zillow 或 Redfin。",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "所有徽章均已隐藏——请在上方至少启用一个。",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "正在为每张 Zillow 和 Redfin 搜索卡片添加徽章。",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "正在为每张 $SITES$ 搜索卡片添加徽章。",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": { "content": "$1", "example": "Zillow & Redfin" }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow 和 Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+
+  "secSites": {
+    "message": "站点",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "切换 Zillow 上的徽章",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "切换 Redfin 上的徽章",
+    "description": "Aria-label for the Redfin site switch."
+  },
+
+  "secBadges": {
+    "message": "显示的徽章",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "每平方英尺单价",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "标价 ÷ 居住面积",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "在售天数",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "从卡片读取，绝不猜测",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "降价",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "仅在房源显示降价时出现",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "降价",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "切换每平方英尺单价徽章",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "切换在售天数徽章",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "切换降价徽章",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+
+  "secTuning": {
+    "message": "滞销房源",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "标记在售时间至少达到",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "天",
+    "description": "Days unit suffix."
+  },
+
+  "secPro": {
+    "message": "Pro——直接在网格上操作",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "目标 $$/sqft 高亮",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "低于目标的卡片染绿，高于则染红——并显示与中位数的 ± 差值",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "切换目标每平方英尺单价高亮",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "目标 $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "结果汇总栏",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "中位数 / 最低 / 最高 $$/sqft、降价数量、滞销数量",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "切换结果汇总栏",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "仅显示降价房源",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "隐藏其余房源——本地处理，随时可还原",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "切换仅显示降价房源",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "对网格排序",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "站点默认顺序",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "$$/sqft 最低优先",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "$$/sqft 最高优先",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "在售时间最长优先",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "将网格导出为 CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "使用结果页面上的导出按钮",
+    "description": "Pro export row sublabel."
+  },
+
+  "upgradeCta": {
+    "message": "解锁 Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 终身版",
+    "description": "Upgrade button price line."
+  },
+
+  "linkHelp": {
+    "message": "帮助",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "隐私",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "免费方案",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro 试用",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro 方案",
+    "description": "Footer tier line — pro."
+  },
+
+  "toastSaveFail": {
+    "message": "无法保存——请重试。",
+    "description": "Toast shown when persisting settings fails."
+  },
+
+  "summaryExport": {
+    "message": "导出 CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "中位 $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "最低",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "最高",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "降价",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "滞销",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+
+  "obSkip": {
+    "message": "跳过介绍",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "返回",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "下一步",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "以后再说",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "打开 Zillow 搜索",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "重播演示",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "保存我的目标",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "目标已保存",
+    "description": "Onboarding: save button label after saving."
+  }
+}

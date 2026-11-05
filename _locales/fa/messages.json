@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "نشان‌های نتایج جستجو: $$/sqft، DOM، کاهش قیمت",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "نشان‌های شبکه",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "روی هر کارت جستجوی Zillow و Redfin قیمت هر sqft، روزهای حضور در بازار و پرچم کاهش قیمت را می‌زند — شبکه را در یک نگاه ارزیابی کنید.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "نشان‌های شبکه",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "تغییر وضعیت نشان‌های نتایج جستجو",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "متوقف شده — در حال حاضر هیچ نشانی نمایش داده نمی‌شود.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "هیچ سایتی فعال نیست — Zillow یا Redfin را در بالا روشن کنید.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "همه نشان‌ها پنهان هستند — حداقل یکی را در بالا فعال کنید.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "نشان‌گذاری هر کارت جستجوی Zillow و Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "نشان‌گذاری هر کارت جستجوی $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow و Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "سایت‌ها",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "تغییر وضعیت نشان‌ها در Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "تغییر وضعیت نشان‌ها در Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "نشان‌های نمایش‌داده‌شده",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "قیمت هر sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "قیمت آگهی ÷ فضای مسکونی",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "روزهای حضور در بازار",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "از کارت خوانده می‌شود، هرگز حدس زده نمی‌شود",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "کاهش قیمت",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "فقط زمانی که آگهی کاهشی را نشان دهد",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "کاهش قیمت",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "تغییر وضعیت نشان قیمت هر فوت مربع",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "تغییر وضعیت نشان روزهای حضور در بازار",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "تغییر وضعیت نشان کاهش قیمت",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "آگهی‌های قدیمی",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "آگهی‌های حاضر در بازار حداقل به مدت را علامت بزن",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "روز",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — روی شبکه اقدام کنید",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "برجسته‌سازی $$/sqft هدف",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "کارت‌های زیر هدف را سبز و بالای آن را قرمز رنگ کن — به‌علاوه ± نسبت به میانه",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "تغییر وضعیت برجسته‌سازی قیمت هدف هر فوت مربع",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "هدف $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "نوار خلاصه نتایج",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "میانه / حداقل / حداکثر $$/sqft، تعداد کاهش قیمت، تعداد قدیمی",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "تغییر وضعیت نوار خلاصه نتایج",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "فقط کاهش قیمت‌ها را نشان بده",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "بقیه را پنهان کن — به‌صورت محلی، همیشه قابل بازگشت",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "تغییر وضعیت نمایش فقط آگهی‌های کاهش قیمت",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "شبکه را مرتب کن",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "ترتیب پیش‌فرض سایت",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "کمترین $$/sqft ابتدا",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "بیشترین $$/sqft ابتدا",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "طولانی‌ترین حضور در بازار ابتدا",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "خروجی شبکه به CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "از دکمه خروجی در صفحه نتایج استفاده کنید",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "باز کردن Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 مادام‌العمر",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "راهنما",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "حریم خصوصی",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "طرح رایگان",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "آزمایشی Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "طرح Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "ذخیره نشد — لطفاً دوباره تلاش کنید.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "خروجی CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "میانه $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "حداقل",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "حداکثر",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "کاهش قیمت‌ها",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "قدیمی",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "رد کردن مقدمه",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "بازگشت",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "بعدی",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "شاید بعداً",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "یک جستجوی Zillow باز کن",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "پخش دوباره دمو",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "هدف من را ذخیره کن",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "هدف ذخیره شد",
+    "description": "Onboarding: save button label after saving."
+  }
+}

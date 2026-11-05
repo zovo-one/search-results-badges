@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Arama Sonucu Rozetleri: $$/sqft, DOM, Fiyat İndirimi",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Izgara Rozetleri",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Her Zillow ve Redfin arama kartını sqft başına fiyat, piyasada geçen gün ve fiyat indirimi işaretiyle damgalar — ızgarayı bir bakışta değerlendirin.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Izgara Rozetleri",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Arama Sonucu Rozetlerini aç/kapat",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Duraklatıldı — şu anda hiçbir rozet gösterilmiyor.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Etkin site yok — yukarıdan Zillow veya Redfin'i açın.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Tüm rozetler gizli — yukarıdan en az birini etkinleştirin.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Her Zillow ve Redfin arama kartı rozetleniyor.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Her $SITES$ arama kartı rozetleniyor.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow ve Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Siteler",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow'da rozetleri aç/kapat",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin'de rozetleri aç/kapat",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Gösterilen rozetler",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "sqft başına fiyat",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Liste fiyatı ÷ yaşam alanı",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Piyasada geçen gün",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Karttan okunur, asla tahmin edilmez",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Fiyat indirimi",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Yalnızca ilan bir indirim gösterdiğinde",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Fiyat indirimi",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "sqft başına fiyat rozetini aç/kapat",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Piyasada geçen gün rozetini aç/kapat",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Fiyat indirimi rozetini aç/kapat",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Bayat ilanlar",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "En az şu süredir piyasada olan ilanları işaretle",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "gün",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — ızgara üzerinde işlem yapın",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Hedef $$/sqft vurgusu",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Hedefin altındaki kartları yeşile, üstündekileri kırmızıya boyar — artı medyana göre ±",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Hedef sqft başına fiyat vurgusunu aç/kapat",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Hedef $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Sonuç özeti çubuğu",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Medyan / min / maks $$/sqft, # fiyat indirimi, # bayat",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Sonuç özeti çubuğunu aç/kapat",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Yalnızca fiyat indirimlerini göster",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Geri kalanını gizle — yerel olarak, her zaman geri alınabilir",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Yalnızca fiyatı indirilen ilanları göstermeyi aç/kapat",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Izgarayı sırala",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Site varsayılan sırası",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Önce en düşük $$/sqft",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Önce en yüksek $$/sqft",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Önce piyasada en uzun süre kalanlar",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Izgarayı CSV'ye aktar",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Sonuç sayfasındaki Dışa Aktar düğmesini kullanın",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Pro'yu aç",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 ömür boyu",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Yardım",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Gizlilik",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Ücretsiz plan",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro deneme",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro plan",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Kaydedilemedi — lütfen tekrar deneyin.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "CSV dışa aktar",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "medyan $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "maks",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "fiyat indirimi",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "bayat",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Tanıtımı atla",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Geri",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "İleri",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Belki sonra",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Bir Zillow araması aç",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Demoyu tekrar oynat",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Hedefimi kaydet",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Hedef kaydedildi",
+    "description": "Onboarding: save button label after saving."
+  }
+}

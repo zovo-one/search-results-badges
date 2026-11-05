@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Значки в резултатите от търсене: $$/sqft, DOM, намаление на цената",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Значки в мрежата",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Поставя на всяка карта от търсенето в Zillow и Redfin цена за sqft, дни на пазара и етикет за намаление — прегледайте мрежата с един поглед.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Значки в мрежата",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Превключване на значките в резултатите от търсене",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "На пауза — в момента не се показват значки.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Няма активни сайтове — включете Zillow или Redfin по-горе.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Всички значки са скрити — включете поне един по-горе.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Значки на всяка карта от търсенето в Zillow и Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Значки на всяка карта от търсенето в $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow и Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Сайтове",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Превключване на значките в Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Превключване на значките в Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Показвани значки",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Цена за sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Обявена цена ÷ жилищна площ",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Дни на пазара",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Прочетено от картата, никога не се предполага",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Намаление на цената",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Само когато обявата показва намаление",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Намаление на цената",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Превключване на значка за цена на квадратен фут",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Превключване на значка за дни на пазара",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Превключване на значка за намаление на цената",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Застояли обяви",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Отбелязвай обяви на пазара поне",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "дни",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — действайте върху мрежата",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Осветяване на целева $$/sqft",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Зелени карти под целта, червени над — плюс ± спрямо медианата",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Превключване на осветяването на целева цена за sqft",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Целева $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Лента с обобщение на резултатите",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Медиана / мин / макс $$/sqft, брой намаления, брой застояли",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Превключване на лентата с обобщение на резултатите",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Показвай само намаления на цената",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Скрий останалите — локално, винаги обратимо",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Превключване на показването само на обяви с намаление",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Сортиране на мрежата",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Ред по подразбиране на сайта",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Първо най-ниска $$/sqft",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Първо най-висока $$/sqft",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Първо най-дълго на пазара",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Експорт на мрежата в CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Използвайте бутона за експорт на страницата с резултати",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Отключи Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 доживотно",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Помощ",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Поверителност",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Безплатен план",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Пробен Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "План Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Записването не бе успешно — опитайте отново.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Експорт CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "медиана $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "мин",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "макс",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "намаления на цената",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "застояли",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Пропусни въведението",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Назад",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Напред",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Може би по-късно",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Отвори търсене в Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Повтори демото",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Запази целта ми",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Целта е запазена",
+    "description": "Onboarding: save button label after saving."
+  }
+}

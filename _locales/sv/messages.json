@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Sökresultat-märken: $$/sqft, DOM, Prissänkning",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Grid Badges",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Sätter pris per sqft, dagar på marknaden och en prissänkningsflagga på varje Zillow- & Redfin-sökkort — bedöm rutnätet med en blick.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Grid Badges",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Slå på/av sökresultat-märken",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Pausad — inga märken visas just nu.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Inga webbplatser aktiverade — slå på Zillow eller Redfin ovan.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Alla märken är dolda — aktivera minst ett ovan.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Sätter märken på varje Zillow- & Redfin-sökkort.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Sätter märken på varje $SITES$-sökkort.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow & Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Webbplatser",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Slå på/av märken på Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Slå på/av märken på Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Visade märken",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Pris per sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Utgångspris ÷ boyta",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Dagar på marknaden",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Läst från kortet, aldrig gissat",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Prissänkning",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Endast när annonsen visar en sänkning",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Prissänkning",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Slå på/av märket för pris per kvadratfot",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Slå på/av märket för dagar på marknaden",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Slå på/av prissänkningsmärket",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Gamla annonser",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Flagga annonser på marknaden i minst",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "dagar",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — agera på rutnätet",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Mål-$$/sqft-markering",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Färga kort under mål gröna, över röda — plus ± mot median",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Slå på/av markering av mål-pris per kvadratfot",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Mål $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Resultatsammanfattningsrad",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Median / min / max $$/sqft, # prissänkningar, # gamla",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Slå på/av resultatsammanfattningsraden",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Visa endast prissänkningar",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Dölj resten — lokalt, alltid reversibelt",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Slå på/av visning av endast prissänkningsannonser",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Sortera rutnätet",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Webbplatsens standardordning",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Lägsta $$/sqft först",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Högsta $$/sqft först",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Längst på marknaden först",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Exportera rutnätet till CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Använd Exportera-knappen på resultatsidan",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Lås upp Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 livstid",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Hjälp",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Integritet",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Gratisplan",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro-provperiod",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro-plan",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Kunde inte spara — försök igen.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Exportera CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "median $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "max",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "prissänkningar",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "gamla",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Hoppa över introt",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Tillbaka",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Nästa",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Kanske senare",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Öppna en Zillow-sökning",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Spela upp demon igen",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Spara mitt mål",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Mål sparat",
+    "description": "Onboarding: save button label after saving."
+  }
+}

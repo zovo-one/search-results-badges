@@ -1,0 +1,304 @@
+{
+  "extName": {
+    "message": "Huy hiệu kết quả tìm kiếm: $$/sqft, DOM, giảm giá",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Huy hiệu lưới",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Đóng dấu giá mỗi sqft, số ngày rao bán và cờ giảm giá lên mọi thẻ tìm kiếm Zillow và Redfin — sàng lọc cả lưới trong nháy mắt.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+
+  "popupTitle": {
+    "message": "Huy hiệu lưới",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Bật/tắt Huy hiệu kết quả tìm kiếm",
+    "description": "Aria-label for the master on/off switch."
+  },
+
+  "statusPaused": {
+    "message": "Đã tạm dừng — hiện không hiển thị huy hiệu nào.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Chưa bật trang nào — hãy bật Zillow hoặc Redfin ở trên.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Tất cả huy hiệu đều ẩn — hãy bật ít nhất một cái ở trên.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Đang gắn huy hiệu lên mọi thẻ tìm kiếm Zillow và Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Đang gắn huy hiệu lên mọi thẻ tìm kiếm $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": { "content": "$1", "example": "Zillow & Redfin" }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow và Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+
+  "secSites": {
+    "message": "Trang web",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Bật/tắt huy hiệu trên Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Bật/tắt huy hiệu trên Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+
+  "secBadges": {
+    "message": "Huy hiệu hiển thị",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Giá mỗi sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Giá niêm yết ÷ diện tích ở",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Số ngày rao bán",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Đọc từ thẻ, không bao giờ đoán",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Giảm giá",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Chỉ khi tin đăng hiển thị mức giảm",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Giảm giá",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Bật/tắt huy hiệu giá mỗi foot vuông",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Bật/tắt huy hiệu số ngày rao bán",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Bật/tắt huy hiệu giảm giá",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+
+  "secTuning": {
+    "message": "Tin đăng cũ",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Đánh dấu tin đăng đã rao bán ít nhất",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "ngày",
+    "description": "Days unit suffix."
+  },
+
+  "secPro": {
+    "message": "Pro — hành động trên lưới",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Làm nổi bật $$/sqft mục tiêu",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Tô xanh thẻ dưới mục tiêu, đỏ khi vượt — kèm ± so với trung vị",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Bật/tắt làm nổi bật giá mỗi foot vuông mục tiêu",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "$$/sqft mục tiêu",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Thanh tóm tắt kết quả",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Trung vị / thấp nhất / cao nhất $$/sqft, số lần giảm giá, số tin cũ",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Bật/tắt thanh tóm tắt kết quả",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Chỉ hiển thị tin giảm giá",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Ẩn phần còn lại — cục bộ, luôn có thể hoàn tác",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Bật/tắt chỉ hiển thị tin giảm giá",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Sắp xếp lưới",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Thứ tự mặc định của trang",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "$$/sqft thấp nhất trước",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "$$/sqft cao nhất trước",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Rao bán lâu nhất trước",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Xuất lưới ra CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Dùng nút Xuất trên trang kết quả",
+    "description": "Pro export row sublabel."
+  },
+
+  "upgradeCta": {
+    "message": "Mở khóa Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 trọn đời",
+    "description": "Upgrade button price line."
+  },
+
+  "linkHelp": {
+    "message": "Trợ giúp",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Quyền riêng tư",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Gói miễn phí",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Dùng thử Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Gói Pro",
+    "description": "Footer tier line — pro."
+  },
+
+  "toastSaveFail": {
+    "message": "Không thể lưu — vui lòng thử lại.",
+    "description": "Toast shown when persisting settings fails."
+  },
+
+  "summaryExport": {
+    "message": "Xuất CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "trung vị $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "thấp nhất",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "cao nhất",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "giảm giá",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "tin cũ",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+
+  "obSkip": {
+    "message": "Bỏ qua giới thiệu",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Quay lại",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Tiếp theo",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Để sau",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Mở tìm kiếm Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Phát lại bản demo",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Lưu mục tiêu của tôi",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Đã lưu mục tiêu",
+    "description": "Onboarding: save button label after saving."
+  }
+}

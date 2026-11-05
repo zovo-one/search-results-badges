@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "شارات نتائج البحث: $$/sqft، DOM، خفض السعر",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "شارات الشبكة",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "تضع على كل بطاقة بحث في Zillow وRedfin السعر لكل قدم مربع، وأيام العرض في السوق، وعلامة خفض السعر — قيّم الشبكة بنظرة واحدة.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "شارات الشبكة",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "تبديل شارات نتائج البحث",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "متوقف مؤقتًا — لا تظهر أي شارات الآن.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "لا توجد مواقع مفعّلة — فعّل Zillow أو Redfin أعلاه.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "جميع الشارات مخفية — فعّل واحدة على الأقل أعلاه.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "وضع شارات على كل بطاقة بحث في Zillow وRedfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "وضع شارات على كل بطاقة بحث في $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow وRedfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "المواقع",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "تبديل الشارات على Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "تبديل الشارات على Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "الشارات المعروضة",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "السعر لكل قدم مربع",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "سعر العرض ÷ المساحة السكنية",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "أيام في السوق",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "تُقرأ من البطاقة، لا تُخمَّن أبدًا",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "خفض السعر",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "فقط عندما يُظهر الإعلان تخفيضًا",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "خفض السعر",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "تبديل شارة السعر لكل قدم مربع",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "تبديل شارة أيام في السوق",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "تبديل شارة خفض السعر",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "إعلانات قديمة",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "ضع علامة على الإعلانات المعروضة في السوق منذ ما لا يقل عن",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "يوم",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — تصرّف على الشبكة",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "تمييز $$/sqft المستهدف",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "لوّن البطاقات بالأخضر تحت الهدف، وبالأحمر فوقه — بالإضافة إلى ± مقارنةً بالوسيط",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "تبديل تمييز السعر المستهدف لكل قدم مربع",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "الهدف $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "شريط ملخص النتائج",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "الوسيط / الأدنى / الأعلى $$/sqft، عدد خفض الأسعار، عدد القديمة",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "تبديل شريط ملخص النتائج",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "عرض خفض الأسعار فقط",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "إخفاء الباقي — محليًا، وقابل للتراجع دائمًا",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "تبديل عرض إعلانات خفض السعر فقط",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "فرز الشبكة",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "الترتيب الافتراضي للموقع",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "الأقل $$/sqft أولًا",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "الأعلى $$/sqft أولًا",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "الأطول عرضًا في السوق أولًا",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "تصدير الشبكة إلى CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "استخدم زر التصدير في صفحة النتائج",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "فتح Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 مدى الحياة",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "مساعدة",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "الخصوصية",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "الخطة المجانية",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "تجربة Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "خطة Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "تعذّر الحفظ — يُرجى المحاولة مرة أخرى.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "تصدير CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "الوسيط $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "الأدنى",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "الأعلى",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "خفض الأسعار",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "قديم",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "تخطي المقدمة",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "رجوع",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "التالي",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "ربما لاحقًا",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "افتح بحث Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "إعادة تشغيل العرض التوضيحي",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "احفظ هدفي",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "تم حفظ الهدف",
+    "description": "Onboarding: save button label after saving."
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "extName": {
+    "message": "検索結果バッジ：$$/sqft・DOM・値下げ",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "グリッドバッジ",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Zillow と Redfin のすべての検索カードに平方フィート単価・掲載日数・値下げ表示を付与し、グリッドを一目で仕分け。",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+
+  "popupTitle": {
+    "message": "グリッドバッジ",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "検索結果バッジを切り替え",
+    "description": "Aria-label for the master on/off switch."
+  },
+
+  "statusPaused": {
+    "message": "一時停止中——現在バッジは表示されていません。",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "サイトが有効になっていません——上で Zillow または Redfin をオンにしてください。",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "すべてのバッジが非表示です——上で少なくとも1つ有効にしてください。",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Zillow と Redfin のすべての検索カードにバッジを付与中。",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "$SITES$ のすべての検索カードにバッジを付与中。",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": { "content": "$1", "example": "Zillow & Redfin" }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow と Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+
+  "secSites": {
+    "message": "サイト",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Zillow のバッジを切り替え",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Redfin のバッジを切り替え",
+    "description": "Aria-label for the Redfin site switch."
+  },
+
+  "secBadges": {
+    "message": "表示するバッジ",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "平方フィート単価",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "表示価格 ÷ 居住面積",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "掲載日数",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "カードから読み取り、推測は一切なし",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "値下げ",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "物件に値下げ表示がある場合のみ",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "値下げ",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "平方フィート単価バッジを切り替え",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "掲載日数バッジを切り替え",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "値下げバッジを切り替え",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+
+  "secTuning": {
+    "message": "長期掲載物件",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "掲載期間が次の日数以上の物件を表示",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "日",
+    "description": "Days unit suffix."
+  },
+
+  "secPro": {
+    "message": "Pro——グリッド上で操作",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "目標 $$/sqft ハイライト",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "目標未満のカードを緑、超過を赤に着色——さらに中央値との ± を表示",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "目標平方フィート単価ハイライトを切り替え",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "目標 $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "結果サマリーバー",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "中央値 / 最小 / 最大 $$/sqft、値下げ件数、長期掲載件数",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "結果サマリーバーを切り替え",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "値下げ物件のみ表示",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "その他を非表示——ローカル処理、いつでも元に戻せます",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "値下げ物件のみ表示を切り替え",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "グリッドを並べ替え",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "サイトの既定の順序",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "$$/sqft が低い順",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "$$/sqft が高い順",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "掲載期間が長い順",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "グリッドを CSV にエクスポート",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "結果ページのエクスポートボタンを使用",
+    "description": "Pro export row sublabel."
+  },
+
+  "upgradeCta": {
+    "message": "Pro をアンロック",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 買い切り",
+    "description": "Upgrade button price line."
+  },
+
+  "linkHelp": {
+    "message": "ヘルプ",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "プライバシー",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "無料プラン",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Pro トライアル",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Pro プラン",
+    "description": "Footer tier line — pro."
+  },
+
+  "toastSaveFail": {
+    "message": "保存できませんでした——もう一度お試しください。",
+    "description": "Toast shown when persisting settings fails."
+  },
+
+  "summaryExport": {
+    "message": "CSV エクスポート",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "中央値 $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "最小",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "最大",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "値下げ",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "長期掲載",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+
+  "obSkip": {
+    "message": "イントロをスキップ",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "戻る",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "次へ",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "後で",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Zillow 検索を開く",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "デモを再生",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "目標を保存",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "目標を保存しました",
+    "description": "Onboarding: save button label after saving."
+  }
+}

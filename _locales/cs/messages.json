@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Odznaky ve výsledcích hledání: $$/sqft, DOM, snížení ceny",
+    "description": "Extension name shown in Chrome Web Store and toolbar."
+  },
+  "extShortName": {
+    "message": "Odznaky mřížky",
+    "description": "Short name shown under the toolbar icon."
+  },
+  "extDesc": {
+    "message": "Přidá na každou kartu hledání Zillow a Redfin cenu za sqft, dny na trhu a značku snížení ceny — posuďte mřížku na první pohled.",
+    "description": "Chrome Web Store short description (<=132 chars)."
+  },
+  "popupTitle": {
+    "message": "Odznaky mřížky",
+    "description": "Popup header title."
+  },
+  "toggleMaster": {
+    "message": "Přepnout odznaky ve výsledcích hledání",
+    "description": "Aria-label for the master on/off switch."
+  },
+  "statusPaused": {
+    "message": "Pozastaveno — odznaky se nyní nezobrazují.",
+    "description": "Popup status line when the master switch is off."
+  },
+  "statusNoSites": {
+    "message": "Žádné weby nejsou zapnuté — zapněte Zillow nebo Redfin výše.",
+    "description": "Popup status line when no site is enabled."
+  },
+  "statusNoBadges": {
+    "message": "Všechny odznaky jsou skryté — zapněte alespoň jeden výše.",
+    "description": "Popup status line when every badge is toggled off."
+  },
+  "statusOn": {
+    "message": "Odznaky na každé kartě hledání Zillow a Redfin.",
+    "description": "Default popup status line (both sites on)."
+  },
+  "statusOnSites": {
+    "message": "Odznaky na každé kartě hledání $SITES$.",
+    "description": "Popup status line naming the active site(s).",
+    "placeholders": {
+      "sites": {
+        "content": "$1",
+        "example": "Zillow & Redfin"
+      }
+    }
+  },
+  "sitesBoth": {
+    "message": "Zillow a Redfin",
+    "description": "Both-sites label used inside the status line."
+  },
+  "secSites": {
+    "message": "Weby",
+    "description": "Section eyebrow: which sites to badge."
+  },
+  "siteZillow": {
+    "message": "Zillow",
+    "description": "Zillow site row label."
+  },
+  "siteRedfin": {
+    "message": "Redfin",
+    "description": "Redfin site row label."
+  },
+  "labelSiteZillow": {
+    "message": "Přepnout odznaky na Zillow",
+    "description": "Aria-label for the Zillow site switch."
+  },
+  "labelSiteRedfin": {
+    "message": "Přepnout odznaky na Redfin",
+    "description": "Aria-label for the Redfin site switch."
+  },
+  "secBadges": {
+    "message": "Zobrazené odznaky",
+    "description": "Section eyebrow: which badges render."
+  },
+  "badgePpsf": {
+    "message": "Cena za sqft",
+    "description": "Price-per-sqft badge row label."
+  },
+  "badgePpsfSub": {
+    "message": "Nabídková cena ÷ obytná plocha",
+    "description": "Price-per-sqft badge row sublabel."
+  },
+  "badgeDom": {
+    "message": "Dny na trhu",
+    "description": "Days-on-market badge row label."
+  },
+  "badgeDomSub": {
+    "message": "Načteno z karty, nikdy odhadováno",
+    "description": "Days-on-market badge row sublabel."
+  },
+  "badgeCut": {
+    "message": "Snížení ceny",
+    "description": "Price-cut badge row label."
+  },
+  "badgeCutSub": {
+    "message": "Pouze když nabídka ukazuje snížení",
+    "description": "Price-cut badge row sublabel."
+  },
+  "badgeCutText": {
+    "message": "Snížení ceny",
+    "description": "Text stamped on the price-cut chip over a card."
+  },
+  "labelBadgePpsf": {
+    "message": "Přepnout odznak ceny za čtvereční stopu",
+    "description": "Aria-label for the price-per-sqft badge switch."
+  },
+  "labelBadgeDom": {
+    "message": "Přepnout odznak dnů na trhu",
+    "description": "Aria-label for the days-on-market badge switch."
+  },
+  "labelBadgeCut": {
+    "message": "Přepnout odznak snížení ceny",
+    "description": "Aria-label for the price-cut badge switch."
+  },
+  "secTuning": {
+    "message": "Zastaralé nabídky",
+    "description": "Section eyebrow: stale-listing threshold."
+  },
+  "staleLabel": {
+    "message": "Označit nabídky na trhu alespoň",
+    "description": "Label preceding the stale-day number input."
+  },
+  "unitDays": {
+    "message": "dnů",
+    "description": "Days unit suffix."
+  },
+  "secPro": {
+    "message": "Pro — jednejte podle mřížky",
+    "description": "Pro section eyebrow."
+  },
+  "proBadge": {
+    "message": "Pro",
+    "description": "Pro badge text."
+  },
+  "proHighlight": {
+    "message": "Zvýraznění cílové $$/sqft",
+    "description": "Pro row: target price-per-sqft highlighting."
+  },
+  "proHighlightSub": {
+    "message": "Zelené karty pod cílem, červené nad — plus ± vůči mediánu",
+    "description": "Pro highlight row sublabel."
+  },
+  "labelProHighlight": {
+    "message": "Přepnout zvýraznění cílové ceny za sqft",
+    "description": "Aria-label for the target-highlight switch."
+  },
+  "proTarget": {
+    "message": "Cílová $$/sqft",
+    "description": "Label for the target price-per-sqft input."
+  },
+  "unitPerSqft": {
+    "message": "/sqft",
+    "description": "Per-square-foot unit suffix."
+  },
+  "proSummary": {
+    "message": "Panel souhrnu výsledků",
+    "description": "Pro row: results summary bar."
+  },
+  "proSummarySub": {
+    "message": "Medián / min / max $$/sqft, počet snížení, počet zastaralých",
+    "description": "Pro summary row sublabel."
+  },
+  "labelProSummary": {
+    "message": "Přepnout panel souhrnu výsledků",
+    "description": "Aria-label for the summary-bar switch."
+  },
+  "proOnlyCuts": {
+    "message": "Zobrazit pouze snížení ceny",
+    "description": "Pro row: filter to price-cut listings only."
+  },
+  "proOnlyCutsSub": {
+    "message": "Skrýt ostatní — lokálně, vždy vratné",
+    "description": "Pro only-cuts row sublabel."
+  },
+  "labelProOnlyCuts": {
+    "message": "Přepnout zobrazení pouze nabídek se snížením ceny",
+    "description": "Aria-label for the only-price-cuts switch."
+  },
+  "proSort": {
+    "message": "Seřadit mřížku",
+    "description": "Label for the grid sort select."
+  },
+  "sortNone": {
+    "message": "Výchozí pořadí webu",
+    "description": "Sort option: keep the site's order."
+  },
+  "sortPpsfAsc": {
+    "message": "Nejprve nejnižší $$/sqft",
+    "description": "Sort option: ascending price per sqft."
+  },
+  "sortPpsfDesc": {
+    "message": "Nejprve nejvyšší $$/sqft",
+    "description": "Sort option: descending price per sqft."
+  },
+  "sortDomDesc": {
+    "message": "Nejprve nejdéle na trhu",
+    "description": "Sort option: descending days on market."
+  },
+  "proExport": {
+    "message": "Exportovat mřížku do CSV",
+    "description": "Pro row: CSV export."
+  },
+  "proExportSub": {
+    "message": "Použijte tlačítko Export na stránce výsledků",
+    "description": "Pro export row sublabel."
+  },
+  "upgradeCta": {
+    "message": "Odemknout Pro",
+    "description": "Upgrade button primary text."
+  },
+  "upgradePrice": {
+    "message": "$$99 doživotně",
+    "description": "Upgrade button price line."
+  },
+  "linkHelp": {
+    "message": "Nápověda",
+    "description": "Footer help link."
+  },
+  "linkPrivacy": {
+    "message": "Soukromí",
+    "description": "Footer privacy link."
+  },
+  "tierFree": {
+    "message": "Bezplatný plán",
+    "description": "Footer tier line — free."
+  },
+  "tierTrial": {
+    "message": "Zkušební Pro",
+    "description": "Footer tier line — trial."
+  },
+  "tierPro": {
+    "message": "Plán Pro",
+    "description": "Footer tier line — pro."
+  },
+  "toastSaveFail": {
+    "message": "Nepodařilo se uložit — zkuste to znovu.",
+    "description": "Toast shown when persisting settings fails."
+  },
+  "summaryExport": {
+    "message": "Export CSV",
+    "description": "Summary-bar export button."
+  },
+  "summaryMedian": {
+    "message": "medián $$/sqft",
+    "description": "Summary-bar stat label: median price per sqft."
+  },
+  "summaryMin": {
+    "message": "min",
+    "description": "Summary-bar stat label: minimum."
+  },
+  "summaryMax": {
+    "message": "max",
+    "description": "Summary-bar stat label: maximum."
+  },
+  "summaryCuts": {
+    "message": "snížení ceny",
+    "description": "Summary-bar stat label: number of price cuts."
+  },
+  "summaryStale": {
+    "message": "zastaralé",
+    "description": "Summary-bar stat label: number of stale listings."
+  },
+  "obSkip": {
+    "message": "Přeskočit úvod",
+    "description": "Onboarding: skip button."
+  },
+  "obBack": {
+    "message": "Zpět",
+    "description": "Onboarding: back button."
+  },
+  "obNext": {
+    "message": "Další",
+    "description": "Onboarding: advance button."
+  },
+  "obMaybeLater": {
+    "message": "Možná později",
+    "description": "Onboarding: dismiss offer button."
+  },
+  "obOpenSearch": {
+    "message": "Otevřít hledání Zillow",
+    "description": "Onboarding: final button that opens a real search."
+  },
+  "obReplay": {
+    "message": "Přehrát demo znovu",
+    "description": "Onboarding: replay the badge demo."
+  },
+  "obSaveTarget": {
+    "message": "Uložit můj cíl",
+    "description": "Onboarding: save target price-per-sqft button."
+  },
+  "obTargetSaved": {
+    "message": "Cíl uložen",
+    "description": "Onboarding: save button label after saving."
+  }
+}
